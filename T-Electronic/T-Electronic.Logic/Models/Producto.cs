@@ -19,7 +19,7 @@ namespace T_Electronic.Logic.Models
         [Range(0, 5000000)]
         public decimal Precio { get; set; }
         public int Categoria_ID { get; set; }
-
+        public object Categoria_Id { get; internal set; }
         [ForeignKey("Categoria_Id")]
         public Categoria Categoria { get; set; }
     }
