@@ -5,11 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using T_Electronic.Logic.Data;
+using T_Electronic.Logic.Interfaces;
 using T_Electronic.Logic.Models;
 
 namespace T_Electronic.Logic.Repository
 {
-    public class CategoriaRepository
+    public class CategoriaRepository : ICategoriaRepository
     {
         private readonly T_ElectronicDbContext _context;
 
