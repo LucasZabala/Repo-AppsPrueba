@@ -12,7 +12,7 @@ builder.Services.AddDbContext<T_ElectronicDbContext>(options =>
 
 // Añadir servicios y repositorios al contenedor de inyección de dependencias
 builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
-builder.Services.AddScoped<IProductoService, ProductoService>();
+builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
 
 builder.Services.AddScoped<IProductoService, ProductoService>();
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();

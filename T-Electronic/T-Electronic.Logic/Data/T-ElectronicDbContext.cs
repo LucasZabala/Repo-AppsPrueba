@@ -37,7 +37,7 @@ namespace T_Electronic.Logic.Data
                     Id = 1,
                     Nombre = "Notebook ASUS TUF Gaming",
                     Descripcion = "La notebook Asus TUF Gaming F15 ofrece una experiencia visual excepcional con su pantalla de 15,6 pulgadas y resolución FHD (1920 x 1080), que proporciona imágenes nítidas y colores vibrantes.",
-                    Precio = 2299000,
+                    Precio = 200000,
                     Categoria_Id = 1
                 },
                 new Producto
@@ -53,6 +53,9 @@ namespace T_Electronic.Logic.Data
                     Id = 3,
                     Nombre = "Lenovo LOQ Gen 9 (15\" Intel) GeForce RTX™ 2050 ",
                     Descripcion = "Mediante sus entradas HDMI, con la TV Samsung Smart 55 pulgadas podés conectar reproductores de audio y video; consolas de juegos y notebooks",
+
+                    Precio = 10000,
+                    Categoria_Id = 3
                 }
             );
         }
