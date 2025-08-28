@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("T-Electronic.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+609e8c5ccb41c8484bac4e835763bc9af50d4b7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+034eeaf325a3f9deb4a261b14af9d3159c9e9f18")]
 [assembly: System.Reflection.AssemblyProductAttribute("T-Electronic.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("T-Electronic.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

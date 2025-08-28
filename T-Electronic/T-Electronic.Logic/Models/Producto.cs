@@ -12,8 +12,10 @@ namespace T_Electronic.Logic.Models
     {
         [Key]
         public int Id { get; set; }
+
         [StringLength(50)]
         public string Nombre { get; set; }
+
         [StringLength(500)]
         public string Descripcion {  get; set; }
 

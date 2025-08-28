@@ -24,8 +24,4 @@
     <ProjectReference Include="..\T-Electronic.Logic\T-Electronic.Logic.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Producto\" />
-  </ItemGroup>
-
 </Project>

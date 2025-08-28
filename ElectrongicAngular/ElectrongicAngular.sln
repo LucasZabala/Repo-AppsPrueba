@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electronic.API", "Electrongic.API\Electronic.API.csproj", "{752AD7BE-9B85-4380-BE3E-10F724DD4676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electronic.Logic", "Electronic.Logic\Electronic.Logic.csproj", "{0FEC2094-968E-4694-A710-777058DA0E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{752AD7BE-9B85-4380-BE3E-10F724DD4676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752AD7BE-9B85-4380-BE3E-10F724DD4676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752AD7BE-9B85-4380-BE3E-10F724DD4676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752AD7BE-9B85-4380-BE3E-10F724DD4676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEC2094-968E-4694-A710-777058DA0E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEC2094-968E-4694-A710-777058DA0E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEC2094-968E-4694-A710-777058DA0E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEC2094-968E-4694-A710-777058DA0E55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B4D65E-512A-4A52-841A-C9CEA1798B1F}
+	EndGlobalSection
+EndGlobal

@@ -37,23 +37,6 @@ namespace T_Electronic.Logic.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categorias");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Nombre = "Computadoras"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Nombre = "Telefonos"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Nombre = "Televisor"
-                        });
                 });
 
             modelBuilder.Entity("T_Electronic.Logic.Models.Producto", b =>
@@ -85,32 +68,6 @@ namespace T_Electronic.Logic.Migrations
                     b.HasIndex("Categoria_Id");
 
                     b.ToTable("Productos");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Categoria_Id = 1,
-                            Descripcion = "La notebook Asus TUF Gaming F15 ofrece una experiencia visual excepcional con su pantalla de 15,6 pulgadas y resolución FHD (1920 x 1080), que proporciona imágenes nítidas y colores vibrantes.",
-                            Nombre = "Notebook ASUS TUF Gaming",
-                            Precio = 200000m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Categoria_Id = 2,
-                            Descripcion = "Chip A18 potencia funcionalidades de foto y video, lo hace todo con una eficiencia energética excepcional para extender la duración de la batería. Botón control de cámara, toma la foto perfecta con sólo levantar un dedo. Nueva cámara ultra gran angular.",
-                            Nombre = "Apple iPhone 16 128GB Teal",
-                            Precio = 623000m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Categoria_Id = 3,
-                            Descripcion = "Mediante sus entradas HDMI, con la TV Samsung Smart 55 pulgadas podés conectar reproductores de audio y video; consolas de juegos y notebooks",
-                            Nombre = "Lenovo LOQ Gen 9 (15\" Intel) GeForce RTX™ 2050 ",
-                            Precio = 10000m
-                        });
                 });
 
             modelBuilder.Entity("T_Electronic.Logic.Models.Producto", b =>
