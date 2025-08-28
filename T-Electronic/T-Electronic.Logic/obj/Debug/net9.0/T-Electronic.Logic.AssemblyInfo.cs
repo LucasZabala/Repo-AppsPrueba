@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("T-Electronic.Web")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("T-Electronic.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b7815cad9106398e69a6f0e585c58e0e4f8c08d")]
-[assembly: System.Reflection.AssemblyProductAttribute("T-Electronic.Web")]
-[assembly: System.Reflection.AssemblyTitleAttribute("T-Electronic.Web")]
+[assembly: System.Reflection.AssemblyProductAttribute("T-Electronic.Logic")]
+[assembly: System.Reflection.AssemblyTitleAttribute("T-Electronic.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

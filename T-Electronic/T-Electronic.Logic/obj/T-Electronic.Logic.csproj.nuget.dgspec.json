@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Web\\T-Electronic.Web.csproj": {}
+    "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Logic\\T-Electronic.Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Web\\T-Electronic.Web.csproj": {
+    "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Logic\\T-Electronic.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Web\\T-Electronic.Web.csproj",
-        "projectName": "T-Electronic.Web",
-        "projectPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Web\\T-Electronic.Web.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Logic\\T-Electronic.Logic.csproj",
+        "projectName": "T-Electronic.Logic",
+        "projectPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Logic\\T-Electronic.Logic.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Web\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,12 +50,6 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -79,9 +73,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
