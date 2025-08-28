@@ -14,12 +14,12 @@ namespace T_Electronic.Logic.Models
         public int Id { get; set; }
         [StringLength(50)]
         public string Nombre { get; set; }
-        [StringLength(200)]
+        [StringLength(500)]
         public string Descripcion {  get; set; }
-        [Range(0, 5000000)]
+
         public decimal Precio { get; set; }
-        public int Categoria_ID { get; set; }
-        public object Categoria_Id { get; internal set; }
+        public int Categoria_Id { get; set; }
+
         [ForeignKey("Categoria_Id")]
         public Categoria Categoria { get; set; }
     }

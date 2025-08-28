@@ -229,3 +229,10 @@ C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\obj\Debu
 C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\obj\Debug\net9.0\ref\T-Electronic.Web.dll
 C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\T-Electronic.Logic.dll
 C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\T-Electronic.Logic.pdb
+C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\User\Documents\Tienda-Electronic\T-Electronic\T-Electronic.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
