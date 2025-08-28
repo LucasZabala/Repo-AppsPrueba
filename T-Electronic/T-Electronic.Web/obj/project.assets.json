@@ -1598,6 +1598,19 @@
             "rid": "win"
           }
         }
+      },
+      "T-Electronic.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8"
+        },
+        "compile": {
+          "bin/placeholder/T-Electronic.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/T-Electronic.Logic.dll": {}
+        }
       }
     }
   },
@@ -4701,13 +4714,19 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "T-Electronic.Logic/1.0.0": {
+      "type": "project",
+      "path": "../T-Electronic.Logic/T-Electronic.Logic.csproj",
+      "msbuildProject": "../T-Electronic.Logic/T-Electronic.Logic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.EntityFrameworkCore.Design >= 9.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.8",
+      "T-Electronic.Logic >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4741,7 +4760,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Logic\\T-Electronic.Logic.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\T-Electronic\\T-Electronic.Logic\\T-Electronic.Logic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
