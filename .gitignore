@@ -1,0 +1,42 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+Electronic-Front/dist
+Electronic-Front/tmp
+Electronic-Front/out-tsc
+Electronic-Front/bazel-out
+
+# Node
+Electronic-Front/node_modules
+Electronic-Front/npm-debug.log
+Electronic-Front/yarn-error.log
+
+# IDEs and editors
+Electronic-Front/.idea/
+Electronic-Front/.project
+Electronic-Front/.classpath
+Electronic-Front/.c9/
+Electronic-Front/*.launch
+Electronic-Front/.settings/
+Electronic-Front/*.sublime-workspace
+
+# Visual Studio Code
+Electronic-Front/.vscode/*
+Electronic-Front/!.vscode/settings.json
+Electronic-Front/!.vscode/tasks.json
+Electronic-Front/!.vscode/launch.json
+Electronic-Front/!.vscode/extensions.json
+Electronic-Front/.history/*
+
+# Miscellaneous
+Electronic-Front/.angular/cache
+Electronic-Front/.sass-cache/
+Electronic-Front/connect.lock
+Electronic-Front/coverage
+Electronic-Front/libpeerconnection.log
+Electronic-Fronttestem.log
+Electronic-Front/typings
+
+# System files
+Electronic-Front/.DS_Store
+Electronic-Front/Thumbs.db
