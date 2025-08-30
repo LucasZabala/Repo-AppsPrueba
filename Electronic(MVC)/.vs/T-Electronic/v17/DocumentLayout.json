@@ -141,8 +141,7 @@
               "RelativeToolTip": "T-Electronic.Logic\\Migrations\\20250829151809_SecundayMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T15:18:10.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T15:18:10.308Z"
             },
             {
               "$type": "Document",
@@ -166,8 +165,7 @@
               "RelativeToolTip": "T-Electronic.Logic\\Models\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T01:33:13.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T01:33:13.42Z"
             },
             {
               "$type": "Document",
@@ -179,8 +177,7 @@
               "RelativeToolTip": "T-Electronic.Logic\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T01:34:55.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T01:34:55.724Z"
             },
             {
               "$type": "Document",
@@ -192,8 +189,7 @@
               "RelativeToolTip": "T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wCkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T01:48:19.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T01:48:19.381Z"
             },
             {
               "$type": "Document",
@@ -227,7 +223,7 @@
               "RelativeDocumentMoniker": "T-Electronic.Web\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Web\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "T-Electronic.Web\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T11:36:25.393Z",
               "EditorCaption": ""

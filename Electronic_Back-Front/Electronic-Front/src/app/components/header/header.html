@@ -1,0 +1,11 @@
+<header class="header">
+  <h1>Inventario</h1>
+  <div class="header-controls">
+    <button (click)="tableUpdate(0)" class="btn view-btn" [class.active]="receivedTableValue === 0">
+       Productos
+    </button>
+    <button (click)="tableUpdate(1)" class="btn view-btn" [class.active]="receivedTableValue === 1">
+       Categorías
+    </button>
+  </div>
+</header>

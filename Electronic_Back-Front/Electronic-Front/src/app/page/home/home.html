@@ -1,0 +1,7 @@
+<div class="background-home">
+  <app-header
+    (updateTableSelect)="onTableSelectUpdate($event)"
+    [receivedTableValue]="valorTableSelect"
+  ></app-header>
+  <app-main [receivedTableValue]="valorTableSelect"></app-main>
+</div>

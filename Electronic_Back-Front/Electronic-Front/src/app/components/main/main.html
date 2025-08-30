@@ -1,0 +1,81 @@
+<main class="main-container">
+  <div class="cont-tabl">
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 1vw">
+      <button class="btn add-btn">Agregar Producto</button>
+    </div>
+    <div class="table-container">
+      @if(receivedTableValue == 0){
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          @if(productos.length != 0){ @for(producto of productos; track $index){
+          <tr>
+            <td>{{ producto.id }}</td>
+            <td>{{ producto.nombre }}</td>
+            <td>{{ producto.descripcion }}</td>
+            <td>{{ producto.precio.toFixed(2) }}</td>
+            <td>{{ producto.categoria.nombre }}</td>
+            <td class="action-buttons">
+              <div class="edit-btn" data-type="product">Editar</div>
+              <div class="delete-btn" data-type="product">Eliminar</div>
+            </td>
+          </tr>
+          } } @else {
+          <tr>
+            <td colSpan="6">No hay datos para mostrar.</td>
+          </tr>
+          }
+        </tbody>
+      </table>
+      }@else {
+        <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          @if(productos.length != 0){ @for(producto of productos; track $index){
+          <tr>
+            <td>{{ producto.id }}</td>
+            <td>{{ producto.nombre }}</td>
+            <td class="action-buttons">
+              <div class="edit-btn" data-type="product">Editar</div>
+              <div class="delete-btn" data-type="product">Eliminar</div>
+            </td>
+          </tr>
+          } } @else {
+          <tr>
+            <td colSpan="3">No hay datos para mostrar.</td>
+          </tr>
+          }
+        </tbody>
+      </table>
+      }
+    </div>
+  </div>
+</main>
+
+<!-- 
+<h1>Productos</h1>
+  @for(producto of productos; track $index){
+  <div>
+    <div>Nombre: {{ producto.nombre }}</div>
+    <div>Categoria: {{ producto.categoria.nombre }}</div>
+    <div>Descripcion: {{ producto.descripcion }}</div>
+    <div>Precio: {{ producto.precio }}</div>
+  </div>
+  }
+
+-->

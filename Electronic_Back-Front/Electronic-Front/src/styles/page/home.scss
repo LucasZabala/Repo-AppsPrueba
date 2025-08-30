@@ -1,0 +1,17 @@
+@use "../variables.scss" as var;
+
+.background-home {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: var.$bg-color;
+  color: var.$text-color;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(var.$accent-color 1px, transparent 1px);
+  background-size: 40px 40px;
+}

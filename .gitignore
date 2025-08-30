@@ -1,42 +1,42 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
-Electronic-Front/dist
-Electronic-Front/tmp
-Electronic-Front/out-tsc
-Electronic-Front/bazel-out
+Electronic_Back-Front/Electronic-Front/dist
+Electronic_Back-Front/Electronic-Front/tmp
+Electronic_Back-Front/Electronic-Front/out-tsc
+Electronic_Back-Front/Electronic-Front/bazel-out
 
 # Node
-Electronic-Front/node_modules
-Electronic-Front/npm-debug.log
-Electronic-Front/yarn-error.log
+Electronic_Back-Front/Electronic-Front/node_modules
+Electronic_Back-Front/Electronic-Front/npm-debug.log
+Electronic_Back-Front/Electronic-Front/yarn-error.log
 
 # IDEs and editors
-Electronic-Front/.idea/
-Electronic-Front/.project
-Electronic-Front/.classpath
-Electronic-Front/.c9/
-Electronic-Front/*.launch
-Electronic-Front/.settings/
-Electronic-Front/*.sublime-workspace
+Electronic_Back-Front/Electronic-Front/.idea/
+Electronic_Back-Front/Electronic-Front/.project
+Electronic_Back-Front/Electronic-Front/.classpath
+Electronic_Back-Front/Electronic-Front/.c9/
+Electronic_Back-Front/Electronic-Front/*.launch
+Electronic_Back-Front/Electronic-Front/.settings/
+Electronic_Back-Front/Electronic-Front/*.sublime-workspace
 
 # Visual Studio Code
-Electronic-Front/.vscode/*
-Electronic-Front/!.vscode/settings.json
-Electronic-Front/!.vscode/tasks.json
-Electronic-Front/!.vscode/launch.json
-Electronic-Front/!.vscode/extensions.json
-Electronic-Front/.history/*
+Electronic_Back-Front/Electronic-Front/.vscode/*
+Electronic_Back-Front/Electronic-Front/!.vscode/settings.json
+Electronic_Back-Front/Electronic-Front/!.vscode/tasks.json
+Electronic_Back-Front/Electronic-Front/!.vscode/launch.json
+Electronic_Back-Front/Electronic-Front/!.vscode/extensions.json
+Electronic_Back-Front/Electronic-Front/.history/*
 
 # Miscellaneous
-Electronic-Front/.angular/cache
-Electronic-Front/.sass-cache/
-Electronic-Front/connect.lock
-Electronic-Front/coverage
-Electronic-Front/libpeerconnection.log
-Electronic-Fronttestem.log
-Electronic-Front/typings
+Electronic_Back-Front/Electronic-Front/.angular/cache
+Electronic_Back-Front/Electronic-Front/.sass-cache/
+Electronic_Back-Front/Electronic-Front/connect.lock
+Electronic_Back-Front/Electronic-Front/coverage
+Electronic_Back-Front/Electronic-Front/libpeerconnection.log
+Electronic_Back-Front/Electronic-Fronttestem.log
+Electronic_Back-Front/Electronic-Front/typings
 
 # System files
-Electronic-Front/.DS_Store
-Electronic-Front/Thumbs.db
+Electronic_Back-Front/Electronic-Front/.DS_Store
+Electronic_Back-Front/Electronic-Front/Thumbs.db
