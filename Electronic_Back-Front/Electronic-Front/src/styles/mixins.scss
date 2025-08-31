@@ -1,3 +1,22 @@
 @mixin ocultar{
     display: none;
 }
+
+@mixin btn {
+    padding: 0.8vw 1.5vh;
+    border-radius: 0.8vw;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    border: 0.1vw solid var.$accent-color;
+    background-color: var.$accent-color;
+    color: var.$card-color;
+    box-shadow: 0 0 1vw var.$accent-color;
+
+    &:hover {
+      transform: translateY(-0.3vw);
+      box-shadow: 0 0 2vw var.$accent-color;
+    }
+  }

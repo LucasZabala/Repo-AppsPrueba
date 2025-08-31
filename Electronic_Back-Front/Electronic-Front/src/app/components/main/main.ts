@@ -1,21 +1,34 @@
 import { Component, inject, Input } from '@angular/core';
-import { Weatherforecast } from '../../services/weatherforecast';
+import { ProductoService } from '../../services/producto-service';
+import { CategoriaService } from '../../services/categoria-service';
+import { AddEditProducto } from './add-edit-producto/add-edit-producto';
+import { AddEditCategoria } from './add-edit-categoria/add-edit-categoria';
+import { DeleteElement } from './delete-element/delete-element';
 
 @Component({
   selector: 'app-main',
-  imports: [],
+  imports: [AddEditProducto, AddEditCategoria, DeleteElement],
   templateUrl: './main.html',
   styleUrl: '../../../styles/main/main.scss',
 })
 export class Main {
-
   @Input() receivedTableValue!: number;
-
-  watherForecastService = inject(Weatherforecast);
+  //
+  productoService = inject(ProductoService);
+  categoriaService = inject(CategoriaService);
+  //
   productos: any[] = [];
+  categorias: any[] = [];
+
+  //
   constructor() {
-    this.watherForecastService.obtenerProductos().subscribe((datos) => {
+    this.productoService.obtenerProductos().subscribe((datos) => {
       this.productos = datos;
     });
+
+    this.categoriaService.obtenerCateogrias().subscribe((datos)=>{
+      this.categorias = datos;
+    })
+
   }
 }

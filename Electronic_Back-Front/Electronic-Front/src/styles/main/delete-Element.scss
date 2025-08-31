@@ -1,0 +1,79 @@
+@use '../variables.scss' as var;
+
+.confirm-modal {
+    display: none;
+//   display: flex;
+  position: fixed;
+  z-index: 101; /* Z-index más alto */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(0.4vw);
+  justify-content: center;
+  align-items: center;
+
+  .confirm-content {
+    background-color: var.$card-color;
+    padding: 2vw;
+    border-radius: 1.2vw;
+    text-align: center;
+    width: 90%;
+    max-width: 40vw;
+    box-shadow: 0 0 2.5vw rgba(0, 0, 0, 0.5), 0 0 1vw #f44336;
+  }
+
+  .confirm-content h3 {
+    color: #f44336;
+    text-shadow: 0 0 0.1vw #f44336;
+  }
+
+  .confirm-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 1.5vw;
+  }
+
+  .confirm-actions .btn {
+    flex-grow: 1;
+  }
+
+  .btn {
+    width: 5vw;
+    height: 5vh;
+    margin: 1vw 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+    position: relative;
+    font-size: 1vw;
+  }
+
+  .save-btn {
+    color: white;
+    border-color: #28a745;
+    box-shadow: 0 0 0.7vw #28a745;
+
+    &:hover {
+      transform: translateY(-0.2vw) scale(1.03);
+      box-shadow: 0 0.2vw 3vw #28a745;
+    }
+  }
+
+  .delete-btn {
+    color: white;
+    border-color: #dc3545;
+    box-shadow: 0 0 0.7vw #dc3545;
+
+    &:hover {
+      transform: translateY(-0.2vw) scale(1.03);
+      box-shadow: 0 0.2vw 3vw #dc3545;
+    }
+  }
+}

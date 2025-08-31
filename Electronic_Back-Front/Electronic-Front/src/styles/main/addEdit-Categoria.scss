@@ -1,0 +1,92 @@
+@use '../variables.scss' as var;
+
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+//   display: flex;
+  backdrop-filter: blur(0.05vw);
+  justify-content: center;
+  align-items: center;
+
+  .modal-content {
+    background-color: var.$card-color;
+    padding: 2vw;
+    border-radius: 1.2vw;
+    position: relative;
+    width: 30vw;
+    height: 18vh;
+    box-shadow: 0 0 2.5vw var.$accent-color;
+  }
+
+  .form-group {
+    margin-bottom: 1vw;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5vw;
+    color: var.$text-color;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 0.8vw;
+    border-radius: 0.6vw;
+    border: 0.1vw solid var.$border-color;
+    background-color: var.$btn-color;
+    color: var.$text-color;
+    font-size: 1vw;
+    box-sizing: border-box;
+  }
+
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1vw;
+    margin-top: 1.5vw;
+  }
+
+  .btn {
+    width: 5vw;
+    height: 5vh;
+    margin: 1vw 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+    position: relative;
+    font-size: 1vw;
+  }
+
+  .save-btn {
+    color: white;
+    border-color: #28a745;
+    box-shadow: 0 0 0.7vw #28a745;
+
+    &:hover {
+      transform: translateY(-0.2vw) scale(1.03);
+      box-shadow: 0 0.2vw 3vw #28a745;
+    }
+  }
+
+  .cancel-btn {
+    color: white;
+    border-color: #dc3545;
+    box-shadow: 0 0 0.7vw #dc3545;
+
+    &:hover {
+      transform: translateY(-0.2vw) scale(1.03);
+      box-shadow: 0 0.2vw 3vw #dc3545;
+    }
+  }
+}

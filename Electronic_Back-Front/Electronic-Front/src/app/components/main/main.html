@@ -1,7 +1,18 @@
 <main class="main-container">
+  <!-- Acciones add and edit Producto -->
+  <app-add-edit-producto></app-add-edit-producto>
+  <!-- Acciones add and edit Categoria -->
+  <app-add-edit-categoria></app-add-edit-categoria>
+  <!-- Acciones delete element -->
+   <app-delete-element></app-delete-element>
+
   <div class="cont-tabl">
     <div style="display: flex; justify-content: flex-end; margin-bottom: 1vw">
+      @if(receivedTableValue == 0){
       <button class="btn add-btn">Agregar Producto</button>
+      }@else {
+      <button class="btn add-btn">Agregar Categoria</button>
+      }
     </div>
     <div class="table-container">
       @if(receivedTableValue == 0){
@@ -37,7 +48,7 @@
         </tbody>
       </table>
       }@else {
-        <table>
+      <table>
         <thead>
           <tr>
             <th>ID</th>
@@ -46,10 +57,10 @@
           </tr>
         </thead>
         <tbody>
-          @if(productos.length != 0){ @for(producto of productos; track $index){
+          @if(categorias.length != 0){ @for(categoria of categorias; track $index){
           <tr>
-            <td>{{ producto.id }}</td>
-            <td>{{ producto.nombre }}</td>
+            <td>{{ categoria.id }}</td>
+            <td>{{ categoria.nombre }}</td>
             <td class="action-buttons">
               <div class="edit-btn" data-type="product">Editar</div>
               <div class="delete-btn" data-type="product">Eliminar</div>
@@ -57,7 +68,7 @@
           </tr>
           } } @else {
           <tr>
-            <td colSpan="3">No hay datos para mostrar.</td>
+            <td colSpan="3">No hay categorias para mostrar.</td>
           </tr>
           }
         </tbody>
