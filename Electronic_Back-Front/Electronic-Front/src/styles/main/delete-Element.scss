@@ -1,8 +1,9 @@
 @use '../variables.scss' as var;
+@use '../mixins.scss' as mix;
 
 .confirm-modal {
     display: none;
-//   display: flex;
+  // display: flex;
   position: fixed;
   z-index: 101; /* Z-index más alto */
   left: 0;
@@ -21,12 +22,12 @@
     text-align: center;
     width: 90%;
     max-width: 40vw;
-    box-shadow: 0 0 2.5vw rgba(0, 0, 0, 0.5), 0 0 1vw #f44336;
+    box-shadow: 0 0 2.5vw rgba(0, 0, 0, 0.5), 0 0 1vw var.$cancel-btn;
   }
 
   .confirm-content h3 {
-    color: #f44336;
-    text-shadow: 0 0 0.1vw #f44336;
+    color: var.$cancel-btn;
+    text-shadow: 0 0 0.1vw var.$cancel-btn;
   }
 
   .confirm-actions {
@@ -41,39 +42,14 @@
   }
 
   .btn {
-    width: 5vw;
-    height: 5vh;
-    margin: 1vw 0vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.5rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: 1px solid transparent;
-    position: relative;
-    font-size: 1vw;
+    @include mix.btn-add-delet-edit;
   }
 
   .save-btn {
-    color: white;
-    border-color: #28a745;
-    box-shadow: 0 0 0.7vw #28a745;
-
-    &:hover {
-      transform: translateY(-0.2vw) scale(1.03);
-      box-shadow: 0 0.2vw 3vw #28a745;
-    }
+    @include mix.accion-btn(var.$acept-btn);
   }
 
   .delete-btn {
-    color: white;
-    border-color: #dc3545;
-    box-shadow: 0 0 0.7vw #dc3545;
-
-    &:hover {
-      transform: translateY(-0.2vw) scale(1.03);
-      box-shadow: 0 0.2vw 3vw #dc3545;
-    }
+    @include mix.accion-btn(var.$cancel-btn);
   }
 }

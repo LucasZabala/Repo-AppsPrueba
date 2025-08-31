@@ -1,15 +1,16 @@
+@if(reciveValueAddEditForm != 0){
 <div class="modal">
   <div class="modal-content">
     <div>
-      <input type="hidden" />
       <div class="form-group">
         <label for="category-name">Nombre de Categoría</label>
-        <input type="text" id="category-name" name="nombre" required />
+        <input autocomplete="off" type="text" id="category-name" name="nombre" required />
       </div>
       <div class="form-actions">
         <div class="btn save-btn">Guardar</div>
-        <div class="btn cancel-btn" data-modal="category-modal">Cancelar</div>
+        <div (click)="onCancelClick()" class="btn cancel-btn">Cancelar</div>
       </div>
     </div>
   </div>
 </div>
+}

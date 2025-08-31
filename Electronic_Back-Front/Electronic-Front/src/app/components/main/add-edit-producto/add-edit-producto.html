@@ -1,10 +1,10 @@
+@if(reciveValueAddEditForm != 0){
 <div class="modal">
   <div class="modal-content">
     <div>
-      <input type="hidden" id="product-id" />
       <div class="form-group">
         <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" required />
+        <input autocomplete="off" type="text" id="nombre" name="nombre" required />
       </div>
       <div class="form-group">
         <label for="descripcion">Descripción</label>
@@ -12,21 +12,30 @@
       </div>
       <div class="form-group">
         <label for="precio">Precio</label>
-        <input type="number" id="precio" name="precio" step="0.01" required />
+        <input
+          autocomplete="off"
+          min="0"
+          type="number"
+          id="precio"
+          name="precio"
+          step="0.01"
+          required
+        />
       </div>
       <div class="form-group">
         <label for="categoria">Categoría</label>
         <select id="categoria" name="categoria_Id" required>
-            <option value="1">Computadoras</option>
-            <option value="2">Telefonos</option>
+          @if(reciveCategorias.length != 0){ 
+            @for(categoria of reciveCategorias; track $index){ 
+              <option value={{categoria.id}}>{{categoria.nombre}}</option>
+            }}
         </select>
       </div>
       <div class="form-actions">
-        <div type="submit" class="btn save-btn"> Guardar</div>
-        <div type="button" class="btn cancel-btn">
-          Cancelar
-        </div>
+        <div class="btn save-btn">Guardar</div>
+        <div (click)="onCancelClick()" class="btn cancel-btn">Cancelar</div>
       </div>
     </div>
   </div>
 </div>
+}

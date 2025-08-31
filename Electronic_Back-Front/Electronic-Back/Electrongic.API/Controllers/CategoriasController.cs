@@ -47,9 +47,17 @@ namespace Electronic.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCategoria(int id, Categoria categoria)
         {
-            if (id != categoria.Id)
+            if (!ModelState.IsValid)
             {
-                return BadRequest();
+                return BadRequest(ModelState);
+            }
+
+            bool nombreDuplicado = await _context.Categorias
+                                        .AnyAsync(c => c.Nombre == categoria.Nombre && c.Id != categoria.Id);
+            if (nombreDuplicado)
+            {
+                ModelState.AddModelError("Nombre", "Ya existe otra categoría con este nombre.");
+                return BadRequest(ModelState);
             }
 
             _context.Entry(categoria).State = EntityState.Modified;
@@ -78,6 +86,18 @@ namespace Electronic.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Categoria>> PostCategoria(Categoria categoria)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            bool categoriaExiste = await _context.Categorias.AnyAsync(c => c.Nombre == categoria.Nombre);
+            if (categoriaExiste)
+            {
+                ModelState.AddModelError("Nombre", "Ya existe una categoría con este nombre.");
+                return BadRequest(ModelState);
+            }
+
             _context.Categorias.Add(categoria);
             await _context.SaveChangesAsync();
 

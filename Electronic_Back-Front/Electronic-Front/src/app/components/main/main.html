@@ -1,17 +1,17 @@
 <main class="main-container">
-  <!-- Acciones add and edit Producto -->
-  <app-add-edit-producto></app-add-edit-producto>
-  <!-- Acciones add and edit Categoria -->
-  <app-add-edit-categoria></app-add-edit-categoria>
-  <!-- Acciones delete element -->
+  <!-- Forms add and edit Producto -->
+  <app-add-edit-producto [reciveValueAddEditForm]="openFormAddEditProducto" [reciveProducto]="producto" [reciveCategorias]="categorias" (formAddEditClosed)="openClosedFormAddEditProducto(0, 0)"></app-add-edit-producto>
+  <!-- Forms add and edit Categoria -->
+  <app-add-edit-categoria [reciveValueAddEditForm]="openFormAddEditCategoria" [reciveCategoria]="categoria" (formAddEditClosed)="openClosedFormAddEditCategoria(0, 0)"></app-add-edit-categoria>
+  <!-- Forms delete element -->
    <app-delete-element></app-delete-element>
 
   <div class="cont-tabl">
     <div style="display: flex; justify-content: flex-end; margin-bottom: 1vw">
       @if(receivedTableValue == 0){
-      <button class="btn add-btn">Agregar Producto</button>
+      <button (click)="openClosedFormAddEditProducto(1, 0)" class="btn add-btn">Agregar Producto</button>
       }@else {
-      <button class="btn add-btn">Agregar Categoria</button>
+      <button (click)="openClosedFormAddEditCategoria(1, 0)" class="btn add-btn">Agregar Categoria</button>
       }
     </div>
     <div class="table-container">
@@ -36,8 +36,8 @@
             <td>{{ producto.precio.toFixed(2) }}</td>
             <td>{{ producto.categoria.nombre }}</td>
             <td class="action-buttons">
-              <div class="edit-btn" data-type="product">Editar</div>
-              <div class="delete-btn" data-type="product">Eliminar</div>
+              <div (click)="openClosedFormAddEditProducto(2, producto.id!)" class="edit-btn">Editar</div>
+              <div (click)="openClosedFormDeleteProducto(true)" class="delete-btn">Eliminar</div>
             </td>
           </tr>
           } } @else {
@@ -62,8 +62,8 @@
             <td>{{ categoria.id }}</td>
             <td>{{ categoria.nombre }}</td>
             <td class="action-buttons">
-              <div class="edit-btn" data-type="product">Editar</div>
-              <div class="delete-btn" data-type="product">Eliminar</div>
+              <div (click)="openClosedFormAddEditCategoria(2, categoria.id!)" class="edit-btn">Editar</div>
+              <div (click)="openClosedFormDeleteCategoria(true)" class="delete-btn">Eliminar</div>
             </td>
           </tr>
           } } @else {
@@ -78,15 +78,3 @@
   </div>
 </main>
 
-<!-- 
-<h1>Productos</h1>
-  @for(producto of productos; track $index){
-  <div>
-    <div>Nombre: {{ producto.nombre }}</div>
-    <div>Categoria: {{ producto.categoria.nombre }}</div>
-    <div>Descripcion: {{ producto.descripcion }}</div>
-    <div>Precio: {{ producto.precio }}</div>
-  </div>
-  }
-
--->

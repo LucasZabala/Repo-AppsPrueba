@@ -1,4 +1,6 @@
 @use '../variables.scss' as var;
+@use '../mixins.scss' as mix;
+
 .main-container {
   width: 100vw;
   height: 86vh;
@@ -111,25 +113,11 @@
     }
 
     .edit-btn {
-      color: white;
-      border-color: #3f51b5;
-      box-shadow: 0 0 0.7vw #3f51b5;
-
-      &:hover {
-        transform: translateY(-0.2vw) scale(1.03);
-        box-shadow: 0 0.2vw 3vw #3f51b5;
-      }
+      @include mix.accion-btn(var.$edit-btn);
     }
 
     .delete-btn {
-      box-shadow: 0 0 0.7vw #f44336;
-      color: white;
-      border-color: #f44336;
-
-      &:hover {
-        transform: translateY(-0.2vw) scale(1.03);
-        box-shadow: 0 0.2vw 3vw #f44336;
-      }
+      @include mix.accion-btn(var.$cancel-btn);
     }
   }
 }

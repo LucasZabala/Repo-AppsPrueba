@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Electronic.Logic.Data;
 using Electronic.Logic.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Electronic.API.Controllers
 {
@@ -26,7 +27,6 @@ namespace Electronic.API.Controllers
         public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
         {
             return await _context.Productos.Include(p => p.Categoria).ToListAsync();
-            //return await _context.Productos.ToListAsync();
         }
 
         // GET: api/Productoes/5
@@ -51,6 +51,18 @@ namespace Electronic.API.Controllers
             if (id != producto.Id)
             {
                 return BadRequest();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            bool categoriaExiste = await _context.Categorias.AnyAsync(c => c.Id == producto.Categoria_Id);
+            if (!categoriaExiste)
+            {
+                ModelState.AddModelError("Categoria_Id", "La categoría especificada no existe.");
+                return BadRequest(ModelState);
             }
 
             _context.Entry(producto).State = EntityState.Modified;
@@ -79,6 +91,18 @@ namespace Electronic.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Producto>> PostProducto(Producto producto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            bool categoriaExiste = await _context.Categorias.AnyAsync(c => c.Id == producto.Categoria_Id);
+            if (!categoriaExiste)
+            {
+                ModelState.AddModelError("Categoria_Id", "La categoría especificada no existe.");
+                return BadRequest(ModelState);
+            }
+
             _context.Productos.Add(producto);
             await _context.SaveChangesAsync();
 

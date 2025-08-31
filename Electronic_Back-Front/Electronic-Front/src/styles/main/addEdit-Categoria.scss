@@ -1,7 +1,8 @@
 @use '../variables.scss' as var;
+@use '../mixins.scss' as mix;
 
 .modal {
-  display: none; /* Oculto por defecto */
+  display: flex;
   position: fixed;
   z-index: 100;
   left: 0;
@@ -54,39 +55,14 @@
   }
 
   .btn {
-    width: 5vw;
-    height: 5vh;
-    margin: 1vw 0vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.5rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: 1px solid transparent;
-    position: relative;
-    font-size: 1vw;
+    @include mix.btn-add-delet-edit;
   }
 
   .save-btn {
-    color: white;
-    border-color: #28a745;
-    box-shadow: 0 0 0.7vw #28a745;
-
-    &:hover {
-      transform: translateY(-0.2vw) scale(1.03);
-      box-shadow: 0 0.2vw 3vw #28a745;
-    }
+    @include mix.accion-btn(var.$acept-btn);
   }
 
   .cancel-btn {
-    color: white;
-    border-color: #dc3545;
-    box-shadow: 0 0 0.7vw #dc3545;
-
-    &:hover {
-      transform: translateY(-0.2vw) scale(1.03);
-      box-shadow: 0 0.2vw 3vw #dc3545;
-    }
+    @include mix.accion-btn(var.$cancel-btn);
   }
 }

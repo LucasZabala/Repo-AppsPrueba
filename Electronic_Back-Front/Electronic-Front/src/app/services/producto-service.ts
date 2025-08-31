@@ -1,15 +1,27 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { environment } from '../../environments/environment.development';
+import { IProducto } from '../interfaces/producto';
+import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProductoService {
-    private http = inject (HttpClient);
-    private URLbase = environment.apiURL + "/api/Productoes";
+  private http = inject(HttpClient);
+  private URLbase = environment.apiURL + '/api/Productoes';
 
-    public obtenerProductos(){
-      return this.http.get<any>(this.URLbase);
-    }
+  //Obtener
+  public obtenerProductos(): Observable<IProducto[]> {
+    return this.http.get<IProducto[]>(this.URLbase);
+  }
+  
+  public obtenerProductoID(id:number): Observable<IProducto> {
+    return this.http.get<IProducto>(this.URLbase + "/" + id);
+  }
+
+  //Agregar
+  public agregarProducto(producto: IProducto): Observable<IProducto> {
+    return this.http.post<IProducto>(this.URLbase, producto);
+  }
 }
