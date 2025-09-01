@@ -1,14 +1,30 @@
-@if(reciveValueAddEditForm != 0){
+@if(reciveValueAddEditForm == 1){
 <div class="modal">
   <div class="modal-content">
     <div>
       <div class="form-group">
         <label for="category-name">Nombre de Categoría</label>
-        <input autocomplete="off" type="text" id="category-name" name="nombre" required />
+        <input autocomplete="off" type="text" id="category-name" name="nombre" required [(ngModel)]="categoriaAdd.nombre"/>
       </div>
       <div class="form-actions">
-        <div class="btn save-btn">Guardar</div>
-        <div (click)="onCancelClick()" class="btn cancel-btn">Cancelar</div>
+        <div (click)="onAddCategoraClick()" class="btn save-btn">Guardar</div>
+        <div (click)="onCancelClick(0)" class="btn cancel-btn">Cancelar</div>
+      </div>
+    </div>
+  </div>
+</div>
+}
+@if(reciveValueAddEditForm == 2){
+<div class="modal">
+  <div class="modal-content">
+    <div>
+      <div class="form-group">
+        <label for="category-name">Nombre de Categoría</label>
+        <input autocomplete="off" type="text" id="category-name" name="nombre" required [(ngModel)]="reciveCategoria.nombre" />
+      </div>
+      <div class="form-actions">
+        <div (click)="onEditCateoriaClick()" class="btn save-btn">Guardar</div>
+        <div (click)="onCancelClick(0)" class="btn cancel-btn">Cancelar</div>
       </div>
     </div>
   </div>

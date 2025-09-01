@@ -47,25 +47,28 @@ namespace Electronic.API.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProducto(int id, Producto producto)
-        {
-            if (id != producto.Id)
-            {
-                return BadRequest();
-            }
+        {            
 
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            bool categoriaExiste = await _context.Categorias.AnyAsync(c => c.Id == producto.Categoria_Id);
-            if (!categoriaExiste)
+            if (id != producto.Id)
             {
-                ModelState.AddModelError("Categoria_Id", "La categoría especificada no existe.");
-                return BadRequest(ModelState);
+                return BadRequest();
             }
 
-            _context.Entry(producto).State = EntityState.Modified;
+            var productoToUpdate = await _context.Productos.FindAsync(id);
+            if(productoToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            productoToUpdate.Nombre = producto.Nombre;
+            productoToUpdate.Descripcion = producto.Descripcion;
+            productoToUpdate.Precio = producto.Precio;
+            productoToUpdate.Categoria_Id = producto.Categoria_Id;
 
             try
             {
@@ -83,7 +86,8 @@ namespace Electronic.API.Controllers
                 }
             }
 
-            return NoContent();
+            //return NoContent();
+            return Ok(producto);
         }
 
         // POST: api/Productoes
@@ -95,13 +99,7 @@ namespace Electronic.API.Controllers
             {
                 return BadRequest(ModelState);
             }
-
-            bool categoriaExiste = await _context.Categorias.AnyAsync(c => c.Id == producto.Categoria_Id);
-            if (!categoriaExiste)
-            {
-                ModelState.AddModelError("Categoria_Id", "La categoría especificada no existe.");
-                return BadRequest(ModelState);
-            }
+                       
 
             _context.Productos.Add(producto);
             await _context.SaveChangesAsync();

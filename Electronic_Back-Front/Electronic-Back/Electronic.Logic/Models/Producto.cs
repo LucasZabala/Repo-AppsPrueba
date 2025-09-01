@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Electronic.Logic.Models
@@ -12,15 +13,21 @@ namespace Electronic.Logic.Models
         [Key]
         public int Id { get; set; }
         [Required]
+        [MaxLength(50)]
+        [JsonPropertyName("nombre")]
         public string Nombre { get; set; }
         [MaxLength(200)]
+        [JsonPropertyName("descripcion")]
         public string Descripcion { get; set; }
         [Required]
-        [Range(0,01)]
+        [Range(0, 999999)]
+        [JsonPropertyName("precio")]
         public decimal Precio { get; set; }
         [Required]
+        [JsonPropertyName("categoria_Id")]
         public int Categoria_Id { get; set; }
-        [Required]
-        public Categoria Categoria { get; set; }
+
+        [JsonIgnore]
+        public Categoria? Categoria { get; set; }
     }
 }

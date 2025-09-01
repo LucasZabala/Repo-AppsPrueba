@@ -1,17 +1,33 @@
 <main class="main-container">
   <!-- Forms add and edit Producto -->
-  <app-add-edit-producto [reciveValueAddEditForm]="openFormAddEditProducto" [reciveProducto]="producto" [reciveCategorias]="categorias" (formAddEditClosed)="openClosedFormAddEditProducto(0, 0)"></app-add-edit-producto>
+  <app-add-edit-producto
+    [reciveValueAddEditForm]="openFormAddEditProducto"
+    [reciveProducto]="producto"
+    [reciveCategorias]="categorias"
+    (formAddEditClosed)="openClosedFormAddEditProducto(0, 0)"
+  ></app-add-edit-producto>
   <!-- Forms add and edit Categoria -->
-  <app-add-edit-categoria [reciveValueAddEditForm]="openFormAddEditCategoria" [reciveCategoria]="categoria" (formAddEditClosed)="openClosedFormAddEditCategoria(0, 0)"></app-add-edit-categoria>
+  <app-add-edit-categoria
+    [reciveValueAddEditForm]="openFormAddEditCategoria"
+    [reciveCategoria]="categoria"
+    (formAddEditClosed)="openClosedFormAddEditCategoria($event, 0)"
+  ></app-add-edit-categoria>
   <!-- Forms delete element -->
-   <app-delete-element></app-delete-element>
+  <app-delete-element 
+  [reciveOpenFormDelete]="openFormDelete"
+  (formDeleteClosed)="openClosedFormDelete($event, 0)"
+  ></app-delete-element>
 
   <div class="cont-tabl">
     <div style="display: flex; justify-content: flex-end; margin-bottom: 1vw">
       @if(receivedTableValue == 0){
-      <button (click)="openClosedFormAddEditProducto(1, 0)" class="btn add-btn">Agregar Producto</button>
+      <button (click)="openClosedFormAddEditProducto(1, 0)" class="btn add-btn">
+        Agregar Producto
+      </button>
       }@else {
-      <button (click)="openClosedFormAddEditCategoria(1, 0)" class="btn add-btn">Agregar Categoria</button>
+      <button (click)="openClosedFormAddEditCategoria(1, 0)" class="btn add-btn">
+        Agregar Categoria
+      </button>
       }
     </div>
     <div class="table-container">
@@ -34,10 +50,16 @@
             <td>{{ producto.nombre }}</td>
             <td>{{ producto.descripcion }}</td>
             <td>{{ producto.precio.toFixed(2) }}</td>
-            <td>{{ producto.categoria.nombre }}</td>
+            @for(categoria of categorias; track $index){
+              @if(producto.categoria_Id == categoria.id){
+                <td>{{ categoria.nombre }}</td>
+              }
+            }
             <td class="action-buttons">
-              <div (click)="openClosedFormAddEditProducto(2, producto.id!)" class="edit-btn">Editar</div>
-              <div (click)="openClosedFormDeleteProducto(true)" class="delete-btn">Eliminar</div>
+              <div (click)="openClosedFormAddEditProducto(2, producto.id!)" class="edit-btn">
+                Editar
+              </div>
+              <div (click)="openClosedFormDelete(1, producto.id!)" class="delete-btn">Eliminar</div>
             </td>
           </tr>
           } } @else {
@@ -62,8 +84,12 @@
             <td>{{ categoria.id }}</td>
             <td>{{ categoria.nombre }}</td>
             <td class="action-buttons">
-              <div (click)="openClosedFormAddEditCategoria(2, categoria.id!)" class="edit-btn">Editar</div>
-              <div (click)="openClosedFormDeleteCategoria(true)" class="delete-btn">Eliminar</div>
+              <div (click)="openClosedFormAddEditCategoria(2, categoria.id!)" class="edit-btn">
+                Editar
+              </div>
+              <div (click)="openClosedFormDelete(2, categoria.id!)" class="delete-btn">
+                Eliminar
+              </div>
             </td>
           </tr>
           } } @else {
@@ -77,4 +103,3 @@
     </div>
   </div>
 </main>
-

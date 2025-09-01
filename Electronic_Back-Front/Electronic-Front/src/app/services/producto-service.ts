@@ -24,4 +24,14 @@ export class ProductoService {
   public agregarProducto(producto: IProducto): Observable<IProducto> {
     return this.http.post<IProducto>(this.URLbase, producto);
   }
+
+  //Editar
+     public editarProducto(producto: IProducto): Observable<IProducto> {
+      return this.http.put<IProducto>(this.URLbase + "/" + producto.id, producto);
+    }
+
+  //Eliminar
+  public deleteProducto(id:number):Observable<IProducto>{
+    return this.http.delete<IProducto>(this.URLbase + "/" + id);
+  }
 }

@@ -21,7 +21,7 @@ namespace Electronic.Logic.Data
         {
             modelBuilder.Entity<Producto>()
                 .HasOne(p => p.Categoria)
-                .WithMany(c => c.Productos)
+                .WithMany() // .WithMany(c => c.Productos)
                 .HasForeignKey(p => p.Categoria_Id);
         }
     }

@@ -2,8 +2,7 @@
 @use '../mixins.scss' as mix;
 
 .confirm-modal {
-    display: none;
-  // display: flex;
+  display: flex;
   position: fixed;
   z-index: 101; /* Z-index más alto */
   left: 0;

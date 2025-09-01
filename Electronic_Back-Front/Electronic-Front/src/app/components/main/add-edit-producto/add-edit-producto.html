@@ -1,14 +1,26 @@
-@if(reciveValueAddEditForm != 0){
+@if(reciveValueAddEditForm == 1){
 <div class="modal">
   <div class="modal-content">
     <div>
       <div class="form-group">
         <label for="nombre">Nombre</label>
-        <input autocomplete="off" type="text" id="nombre" name="nombre" required />
+        <input
+          autocomplete="off"
+          type="text"
+          id="nombre"
+          name="nombre"
+          required
+          [(ngModel)]="addProducto.nombre"
+        />
       </div>
       <div class="form-group">
         <label for="descripcion">Descripción</label>
-        <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+        <textarea
+          id="descripcion"
+          name="descripcion"
+          rows="4"
+          [(ngModel)]="addProducto.descripcion"
+        ></textarea>
       </div>
       <div class="form-group">
         <label for="precio">Precio</label>
@@ -20,20 +32,64 @@
           name="precio"
           step="0.01"
           required
+          [(ngModel)]="addProducto.precio"
         />
       </div>
       <div class="form-group">
         <label for="categoria">Categoría</label>
-        <select id="categoria" name="categoria_Id" required>
-          @if(reciveCategorias.length != 0){ 
-            @for(categoria of reciveCategorias; track $index){ 
-              <option value={{categoria.id}}>{{categoria.nombre}}</option>
-            }}
+        <select id="categoria" name="categoria_Id" [(ngModel)]="addProducto.categoria_Id">
+          @if(reciveCategorias.length != 0){ @for(categoria of reciveCategorias; track $index){
+          <option [value]="categoria.id">{{ categoria.nombre }}</option>
+          }}@else {
+          <option [value]="0" disabled>No hay categorías disponibles</option>
+          }
         </select>
       </div>
       <div class="form-actions">
-        <div class="btn save-btn">Guardar</div>
-        <div (click)="onCancelClick()" class="btn cancel-btn">Cancelar</div>
+        <div (click)="onAddProducto()" class="btn save-btn">Guardar</div>
+        <div (click)="onCancelClick(0)" class="btn cancel-btn">Cancelar</div>
+      </div>
+    </div>
+  </div>
+</div>
+}@else if(reciveValueAddEditForm == 2){
+<div class="modal">
+  <div class="modal-content">
+    <div>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input autocomplete="off" type="text" id="nombre" name="nombre" required [(ngModel)]="reciveProducto.nombre"/>
+      </div>
+      <div class="form-group">
+        <label for="descripcion">Descripción</label>
+        <textarea id="descripcion" name="descripcion" rows="4" [(ngModel)]="reciveProducto.descripcion"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="precio">Precio</label>
+        <input
+          autocomplete="off"
+          min="0"
+          type="number"
+          id="precio"
+          name="precio"
+          step="0.01"
+          required
+          [(ngModel)]="reciveProducto.precio"
+        />
+      </div>
+      <div class="form-group">
+        <label for="categoria">Categoría</label>
+        <select id="categoria" name="categoria_Id" [(ngModel)]="reciveProducto.categoria_Id">
+          @if(reciveCategorias.length != 0){ @for(categoria of reciveCategorias; track $index){
+          <option [value]="categoria.id">{{ categoria.nombre }}</option>
+          }}@else {
+          <option [value]="0" disabled>No hay categorías disponibles</option>
+          }
+        </select>
+      </div>
+      <div class="form-actions">
+        <div (click)="onEdditProdcuto()" class="btn save-btn">Guardar</div>
+        <div (click)="onCancelClick(0)" class="btn cancel-btn">Cancelar</div>
       </div>
     </div>
   </div>

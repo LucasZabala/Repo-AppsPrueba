@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization; //Romber bucle serializacion de objetos
@@ -11,12 +12,12 @@ namespace Electronic.Logic.Models
     public class Categoria
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        [MaxLength(100)]
+        [MaxLength(50)]
+        [JsonPropertyName("nombre")]
         public string Nombre {  get; set; }
 
-        [JsonIgnore] //Romber bucle serializacion de objetos
-        public ICollection<Producto> Productos { get; set; }
     }
 }

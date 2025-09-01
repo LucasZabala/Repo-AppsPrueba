@@ -52,16 +52,29 @@ namespace Electronic.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            bool nombreDuplicado = await _context.Categorias
-                                        .AnyAsync(c => c.Nombre == categoria.Nombre && c.Id != categoria.Id);
+            if (id != categoria.Id)
+            {
+                return BadRequest();
+            }
+
+            var categoriaToUpdate = await _context.Categorias.FindAsync(id);
+
+            if (categoriaToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            bool nombreDuplicado = await _context.Categorias.AnyAsync(c => c.Nombre == categoria.Nombre && c.Id != categoria.Id);
             if (nombreDuplicado)
             {
                 ModelState.AddModelError("Nombre", "Ya existe otra categoría con este nombre.");
                 return BadRequest(ModelState);
             }
 
-            _context.Entry(categoria).State = EntityState.Modified;
+            //_context.Entry(categoria).State = EntityState.Modified;
+            categoriaToUpdate.Nombre = categoria.Nombre;
 
+            //Si otro usuario edito la cateoria mientras yo la edite se dispara el catch
             try
             {
                 await _context.SaveChangesAsync();
@@ -78,7 +91,10 @@ namespace Electronic.API.Controllers
                 }
             }
 
-            return NoContent();
+            //No devuelve nada
+            // return NoContent();
+            //Devuelve la categoria que se edito
+            return Ok(categoria);
         }
 
         // POST: api/Categorias
@@ -94,13 +110,14 @@ namespace Electronic.API.Controllers
             bool categoriaExiste = await _context.Categorias.AnyAsync(c => c.Nombre == categoria.Nombre);
             if (categoriaExiste)
             {
-                ModelState.AddModelError("Nombre", "Ya existe una categoría con este nombre.");
+                ModelState.AddModelError("Nombre", "El nombre de la categoría ya existe.");
                 return BadRequest(ModelState);
             }
 
             _context.Categorias.Add(categoria);
             await _context.SaveChangesAsync();
 
+            //Devuelve categoria que se agrego
             return CreatedAtAction("GetCategoria", new { id = categoria.Id }, categoria);
         }
 
@@ -108,10 +125,18 @@ namespace Electronic.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategoria(int id)
         {
+
             var categoria = await _context.Categorias.FindAsync(id);
+
             if (categoria == null)
             {
                 return NotFound();
+            }
+
+            var tieneProductosAsociados = await _context.Productos.AnyAsync(p => p.Categoria_Id == id);
+            if (tieneProductosAsociados)
+            {
+                return BadRequest("No se puede eliminar la categoría porque tiene productos asociados.");
             }
 
             _context.Categorias.Remove(categoria);
