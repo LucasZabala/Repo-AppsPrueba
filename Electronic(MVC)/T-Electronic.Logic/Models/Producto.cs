@@ -20,9 +20,9 @@ namespace T_Electronic.Logic.Models
         public string Descripcion {  get; set; }
 
         public decimal Precio { get; set; }
+        [ForeignKey("Categoria_Id")]
         public int Categoria_Id { get; set; }
 
-        [ForeignKey("Categoria_Id")]
         public Categoria Categoria { get; set; }
     }
 }
