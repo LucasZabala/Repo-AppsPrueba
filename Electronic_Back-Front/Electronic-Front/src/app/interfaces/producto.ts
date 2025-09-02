@@ -6,3 +6,4 @@ export interface IProducto {
     precio: number;
     categoria_Id: number;
 }
+

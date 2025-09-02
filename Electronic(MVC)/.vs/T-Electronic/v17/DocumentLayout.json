@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.logic\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|solutionrelative:t-electronic.logic\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.logic\\data\\t_electronicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|solutionrelative:t-electronic.logic\\data\\t_electronicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.logic\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|solutionrelative:t-electronic.logic\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.logic\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|solutionrelative:t-electronic.logic\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89896F00-1666-42BF-A03D-1E22D9B1C810}|T-Electronic.Web\\T-Electronic.Web.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.logic\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|solutionrelative:t-electronic.logic\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.logic\\data\\t_electronicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDC20C7F-CC49-4C2B-9543-3C3ACF0F88D5}|T-Electronic.Logic\\T-Electronic.Logic.csproj|solutionrelative:t-electronic.logic\\data\\t_electronicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89896F00-1666-42BF-A03D-1E22D9B1C810}|T-Electronic.Web\\T-Electronic.Web.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic(mvc)\\t-electronic.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -133,19 +133,6 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Web\\Program.cs",
-              "RelativeDocumentMoniker": "T-Electronic.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Web\\Program.cs",
-              "RelativeToolTip": "T-Electronic.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T11:48:49.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Web\\Controllers\\ProductoController.cs",
@@ -158,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ICategoriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "T-Electronic.Logic\\Interfaces\\ICategoriaRepository.cs",
@@ -170,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ICategoriaService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Interfaces\\ICategoriaService.cs",
               "RelativeDocumentMoniker": "T-Electronic.Logic\\Interfaces\\ICategoriaService.cs",
@@ -182,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Interfaces\\IProductoRepository.cs",
               "RelativeDocumentMoniker": "T-Electronic.Logic\\Interfaces\\IProductoRepository.cs",
@@ -194,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IProductoService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Interfaces\\IProductoService.cs",
               "RelativeDocumentMoniker": "T-Electronic.Logic\\Interfaces\\IProductoService.cs",
@@ -219,16 +206,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "T-Electronic.Logic\\Models\\Producto.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Models\\Producto.cs",
               "RelativeToolTip": "T-Electronic.Logic\\Models\\Producto.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T01:33:13.42Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "T_ElectronicDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
+              "RelativeDocumentMoniker": "T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
+              "RelativeToolTip": "T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T01:48:19.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Web\\Program.cs",
+              "RelativeDocumentMoniker": "T-Electronic.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Web\\Program.cs",
+              "RelativeToolTip": "T-Electronic.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T11:48:49.814Z"
             },
             {
               "$type": "Document",
@@ -241,18 +253,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-28T11:33:14.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "T_ElectronicDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
-              "RelativeDocumentMoniker": "T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic(MVC)\\T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
-              "RelativeToolTip": "T-Electronic.Logic\\Data\\T_ElectronicDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T01:48:19.381Z"
             },
             {
               "$type": "Document",
