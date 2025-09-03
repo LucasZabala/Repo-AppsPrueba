@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("T-Electronic.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0658205fe7c0d80909c518307761d45257a2c8a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b667f2034ad52a4a0756374270297687dc5c332")]
 [assembly: System.Reflection.AssemblyProductAttribute("T-Electronic.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("T-Electronic.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

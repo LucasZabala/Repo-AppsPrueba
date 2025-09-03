@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic_back-front\\electronic-back\\electrongic.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|solutionrelative:electrongic.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic_back-front\\electronic-back\\electrongic.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|solutionrelative:electrongic.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FEC2094-968E-4694-A710-777058DA0E55}|Electronic.Logic\\Electronic.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic_back-front\\electronic-back\\electronic.logic\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FEC2094-968E-4694-A710-777058DA0E55}|Electronic.Logic\\Electronic.Logic.csproj|solutionrelative:electronic.logic\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic_back-front\\electronic-back\\electrongic.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|solutionrelative:electrongic.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\electronic_back-front\\electronic-back\\electrongic.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{752AD7BE-9B85-4380-BE3E-10F724DD4676}|Electrongic.API\\Electronic.API.csproj|solutionrelative:electrongic.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electrongic.API\\Program.cs",
+              "RelativeDocumentMoniker": "Electrongic.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electrongic.API\\Program.cs",
+              "RelativeToolTip": "Electrongic.API\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:34:42.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ElectronicDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electronic.Logic\\Data\\ElectronicDbContext.cs",
               "RelativeDocumentMoniker": "Electronic.Logic\\Data\\ElectronicDbContext.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Electronic.Logic\\Data\\ElectronicDbContext.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAuwBgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T20:19:46.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T20:19:46.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProductoesController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electrongic.API\\Controllers\\ProductoesController.cs",
               "RelativeDocumentMoniker": "Electrongic.API\\Controllers\\ProductoesController.cs",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electrongic.API\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "Electrongic.API\\Controllers\\CategoriasController.cs",
@@ -75,32 +91,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electrongic.API\\appsettings.json",
               "RelativeDocumentMoniker": "Electrongic.API\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electrongic.API\\appsettings.json",
               "RelativeToolTip": "Electrongic.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-28T20:43:33.252Z"
+              "WhenOpened": "2025-08-28T20:43:33.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electronic.Logic\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Electronic.Logic\\Models\\Producto.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electronic.Logic\\Models\\Producto.cs",
               "RelativeToolTip": "Electronic.Logic\\Models\\Producto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T19:54:52.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\Electronic_Back-Front\\Electronic-Back\\Electronic.Logic\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "Electronic.Logic\\Models\\Categoria.cs",

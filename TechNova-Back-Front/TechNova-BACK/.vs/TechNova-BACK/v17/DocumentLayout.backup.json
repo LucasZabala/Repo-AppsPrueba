@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "TechNova.Logic\\Data\\TechNovaDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Data\\TechNovaDbContext.cs",
               "RelativeToolTip": "TechNova.Logic\\Data\\TechNovaDbContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T20:06:33.9Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "TechNova.Logic\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T19:40:26.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T19:40:26.531Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "TechNova.Logic\\Models\\Marca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T19:40:19.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T19:40:19.331Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "TechNova.Logic\\Models\\Producto.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAA5wCgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T19:40:03.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T19:40:03.301Z"
             }
           ]
         }
