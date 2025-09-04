@@ -14,17 +14,47 @@ namespace TechNova.Logic.Services
 
         public ProductoService(IProductoRepository productoRepository)
         {
-            this._productoRepository = productoRepository;
+            _productoRepository = productoRepository;
         }
 
         public async Task<IEnumerable<Producto>> GetAllProductosAsync()
         {
-            return await _productoRepository.GetAllAsync();
+            return await _productoRepository.GetAllProductosAsync();
         }
         
-        public async Task<Producto> GetProductoByIdAsync()
+        public async Task<Producto> GetProductoByIdAsync(int id)
         {
-            return await _productoRepository.GetByIdAsync();
+            var prodcuto = await  _productoRepository.GetProductoByIdAsync(id);
+
+            if(prodcuto == null)
+            {
+                throw new InvalidOperationException($"Producto con Id {id} no encontrado.");
+            }
+            return prodcuto;
+        }
+
+        public async Task AddProductoAsync(Producto producto)
+        {
+            if(producto == null)
+            {
+                throw new ArgumentNullException("No se puede agregar un Producto nulo");
+            }
+            await _productoRepository.AddProductoAsync(producto);
+        }
+
+        public async Task UpdateProductoAsync(Producto producto)
+        {
+            if (producto == null)
+            {
+                throw new ArgumentNullException("No se puede editar un Producto nulo");
+            }
+
+            await _productoRepository.UpdateProductoAsync(producto);
+        }
+
+        public async Task DeleteProductoAsync(int id)
+        {
+            await _productoRepository.DeleteProductoAsync(id);
         }
     }
 }

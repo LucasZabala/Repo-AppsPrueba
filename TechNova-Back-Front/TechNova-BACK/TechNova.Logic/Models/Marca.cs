@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace TechNova.Logic.Models
 {
+    [Table("Marcas")]
     public class Marca
     {
         [Key]

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace TechNova.Logic.Models
 {
+    [Table("Categorias")]
     public class Categoria
     {
         [Key]
