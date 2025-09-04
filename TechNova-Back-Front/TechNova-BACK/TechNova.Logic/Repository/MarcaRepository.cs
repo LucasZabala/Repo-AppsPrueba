@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TechNova.Logic.Repository
 {
-    internal class MarcaRepository
+    public class MarcaRepository
     {
     }
 }

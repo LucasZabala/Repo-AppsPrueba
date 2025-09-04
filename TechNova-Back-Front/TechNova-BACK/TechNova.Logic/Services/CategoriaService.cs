@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TechNova.Logic.Services
 {
-    internal class CategoriaService
+    public class CategoriaService
     {
     }
 }
