@@ -37,13 +37,18 @@ namespace TechNova.Logic.Services
         {
             if(producto == null)
             {
-                throw new ArgumentNullException("No se puede agregar un Producto nulo");
+                throw new InvalidOperationException("El producto a agregar es nulo.");
             }
             await _productoRepository.AddProductoAsync(producto);
         }
 
         public async Task UpdateProductoAsync(Producto producto)
         {
+            var prodcutoExistente = _productoRepository.GetProductoByIdAsync(producto.Id);
+            if(prodcutoExistente == null)
+            {
+                throw new InvalidOperationException("El producto a actualizar no existe."); ;
+            }
             await _productoRepository.UpdateProductoAsync(producto);
         }
 

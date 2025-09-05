@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechNova.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+630eff41e4907b4ed7a1dd99af71eabb6c675183")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fde31931bb1bc5f37260e015019cff20f4cc2c7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechNova.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechNova.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
