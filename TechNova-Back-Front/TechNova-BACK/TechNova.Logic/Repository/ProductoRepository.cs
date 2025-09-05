@@ -32,7 +32,7 @@ namespace TechNova.Logic.Repository
 
         public async Task<Producto> GetProductoByIdAsync(int id)
         {
-            var sql = "SELECT * FROM Productos HWERE Id = @id";
+            var sql = "SELECT * FROM Productos WHERE Id = @id";
             var producto = await _dbConnection.QueryFirstOrDefaultAsync<Producto>(sql, new { id });
             return producto;
         }
@@ -51,14 +51,13 @@ namespace TechNova.Logic.Repository
 
         public async Task DeleteProductoAsync(int id)
         {
-            var producto = await _context.Productos.FindAsync(id);
+            var producto = await this.GetProductoByIdAsync(id);
             if (producto != null)
             {
                 _context.Productos.Remove(producto);
                 await _context.SaveChangesAsync();
             }
         }
-
 
     }
 }

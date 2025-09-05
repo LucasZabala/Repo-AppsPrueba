@@ -9,7 +9,7 @@ namespace TechNova.Logic.Interfaces
 {
     public interface ICategoriaService
     {
-        Task<IEnumerable<Categoria>> GetAllCategoriaAsync();
+        Task<IEnumerable<Categoria>> GetAllCategoriasAsync();
         Task<Categoria> GetCategoriaByIdAsync(int id);
         Task AddCategoriaAsync(Categoria categoria);
         Task UpdateCategoriaAsync(Categoria categoria);

@@ -44,11 +44,6 @@ namespace TechNova.Logic.Services
 
         public async Task UpdateProductoAsync(Producto producto)
         {
-            if (producto == null)
-            {
-                throw new ArgumentNullException("No se puede editar un Producto nulo");
-            }
-
             await _productoRepository.UpdateProductoAsync(producto);
         }
 
