@@ -45,7 +45,8 @@ namespace TechNova.API.Controllers
                 //Se manda como objeto json
                 return NotFound(new { message = ex.Message });
             }
-            catch (Exception ex) { 
+            catch (Exception ex)
+            {
                 return StatusCode(500, new { message = "Error: " + ex.Message });
             }
         }
@@ -55,7 +56,7 @@ namespace TechNova.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProducto(int id, Producto producto)
         {
-            if(id != producto.Id)
+            if (id != producto.Id)
             {
                 return BadRequest(new { message = "El ID de la URL no coincide con el ID del producto." });
             }
@@ -63,7 +64,8 @@ namespace TechNova.API.Controllers
             {
                 await _productoService.UpdateProductoAsync(producto);
                 return Ok();
-            }catch (InvalidOperationException ex)
+            }
+            catch (InvalidOperationException ex)
             {
                 return NotFound(new { message = ex.Message });
             }
@@ -79,15 +81,34 @@ namespace TechNova.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Producto>> PostProducto(Producto producto)
         {
-             
+            try
+            {
+                await _productoService.AddProductoAsync(producto);
+                return Ok();
+            }
+            catch (InvalidOperationException ex) { 
+                return NotFound(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Error: " + ex.Message });
+            }
         }
 
         // DELETE: api/Productoes/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProducto(int id)
         {
-            
+            try
+            {
+                await _productoService.DeleteProductoAsync(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Error: " + ex.Message });
+            }
         }
-        
+
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechNova.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fde31931bb1bc5f37260e015019cff20f4cc2c7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0524bdb69a6817f88f900a9ca271e4d2e9432941")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechNova.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechNova.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
