@@ -1,5 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using TechNova.Logic.Data;
+using TechNova.Logic.Interfaces;
+using TechNova.Logic.Repository;
+using TechNova.Logic.Services;
 
 //Definir nombre politica cors
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
@@ -9,6 +12,16 @@ var builder = WebApplication.CreateBuilder(args);
 //Configurar Servicio de DataBase
 builder.Services.AddDbContext<TechNovaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//-----SE Me OLVIDARON ESTAS LINEAS
+// Se agregan las interfaces para inyección de dependencias
+builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
+builder.Services.AddScoped<IProductoService, ProductoService>();
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+builder.Services.AddScoped<IMarcaRepository,  MarcaRepository>();
+builder.Services.AddScoped<IMarcaService,  MarcaService>();
+
 
 // Add services to the container.
 
