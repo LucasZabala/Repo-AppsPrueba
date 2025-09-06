@@ -1,5 +1,6 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+#/////////////////////////////ELECTRONIC//////////////////////
 # Compiled output
 Electronic_Back-Front/Electronic-Front/dist
 Electronic_Back-Front/Electronic-Front/tmp
@@ -40,3 +41,47 @@ Electronic_Back-Front/Electronic-Front/typings
 # System files
 Electronic_Back-Front/Electronic-Front/.DS_Store
 Electronic_Back-Front/Electronic-Front/Thumbs.db
+
+#////////////////////////////////////TECH NOVA///////////////////////////////
+
+# Compiled output
+TechNova-Back-Front/TechNova-Front/dist
+TechNova-Back-Front/TechNova-Front/tmp
+TechNova-Back-Front/TechNova-Front/out-tsc
+TechNova-Back-Front/TechNova-Front/bazel-out
+
+# Node
+TechNova-Back-Front/TechNova-Front/node_modules
+TechNova-Back-Front/TechNova-Front/npm-debug.log
+TechNova-Back-Front/TechNova-Front/yarn-error.log
+
+# IDEs and editors
+TechNova-Back-Front/TechNova-Front/.idea/
+TechNova-Back-Front/TechNova-Front/.project
+TechNova-Back-Front/TechNova-Front/.classpath
+TechNova-Back-Front/TechNova-Front/.c9/
+TechNova-Back-Front/TechNova-Front/*.launch
+TechNova-Back-Front/TechNova-Front/.settings/
+TechNova-Back-Front/TechNova-Front/*.sublime-workspace
+
+# Visual Studio Code
+TechNova-Back-Front/TechNova-Front/.vscode/*
+TechNova-Back-Front/TechNova-Front/!.vscode/settings.json
+TechNova-Back-Front/TechNova-Front/!.vscode/tasks.json
+TechNova-Back-Front/TechNova-Front/!.vscode/launch.json
+TechNova-Back-Front/TechNova-Front/!.vscode/extensions.json
+TechNova-Back-Front/TechNova-Front/.history/*
+
+# Miscellaneous
+TechNova-Back-Front/TechNova-Front/.angular/cache
+TechNova-Back-Front/TechNova-Front/.sass-cache/
+TechNova-Back-Front/TechNova-Front/connect.lock
+TechNova-Back-Front/TechNova-Front/coverage
+TechNova-Back-Front/TechNova-Front/libpeerconnection.log
+TechNova-Back-Front/TechNova-Front/testem.log
+TechNova-Back-Front/TechNova-Front/typings
+
+# System files
+TechNova-Back-Front/TechNova-Front/.DS_Store
+TechNova-Back-Front/TechNova-Front/Thumbs.db
+
