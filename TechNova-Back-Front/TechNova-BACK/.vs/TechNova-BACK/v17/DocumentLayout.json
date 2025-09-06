@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\migrations\\20250905051708_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\migrations\\20250905051708_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|solutionrelative:technova.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.api\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|solutionrelative:technova.api\\controllers\\marcascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.api\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|solutionrelative:technova.api\\controllers\\productoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\migrations\\20250905051708_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\migrations\\20250905051708_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,14 +63,6 @@
       "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\interfaces\\imarcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\services\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,14 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|solutionrelative:technova.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\tienda-electronic\\technova-back-front\\technova-back\\technova.logic\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,48 +102,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MarcasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\MarcasController.cs",
+              "RelativeDocumentMoniker": "TechNova.API\\Controllers\\MarcasController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\MarcasController.cs",
+              "RelativeToolTip": "TechNova.API\\Controllers\\MarcasController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T02:01:38.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "TechNova.API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "TechNova.API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T21:43:25.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\ProductoesController.cs",
+              "RelativeDocumentMoniker": "TechNova.API\\Controllers\\ProductoesController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\ProductoesController.cs",
+              "RelativeToolTip": "TechNova.API\\Controllers\\ProductoesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T04:05:58.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "TechNova.Logic\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "TechNova.Logic\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T19:40:37.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "TechNova.Logic\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\ProductoService.cs",
+              "RelativeToolTip": "TechNova.Logic\\Services\\ProductoService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T13:19:08.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarcaService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\MarcaService.cs",
+              "RelativeDocumentMoniker": "TechNova.Logic\\Services\\MarcaService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\MarcaService.cs",
+              "RelativeToolTip": "TechNova.Logic\\Services\\MarcaService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T01:54:47.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\MarcaRepository.cs",
+              "RelativeDocumentMoniker": "TechNova.Logic\\Repository\\MarcaRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\MarcaRepository.cs",
+              "RelativeToolTip": "TechNova.Logic\\Repository\\MarcaRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwC4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T01:34:33.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "TechNova.Logic\\Repository\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\CategoriaRepository.cs",
+              "RelativeToolTip": "TechNova.Logic\\Repository\\CategoriaRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA6wDoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:37:31.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20250905051708_InitialMigration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Migrations\\20250905051708_InitialMigration.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Migrations\\20250905051708_InitialMigration.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Migrations\\20250905051708_InitialMigration.cs",
               "RelativeToolTip": "TechNova.Logic\\Migrations\\20250905051708_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T05:17:10.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\IProductoService.cs",
-              "RelativeDocumentMoniker": "TechNova.Logic\\Interfaces\\IProductoService.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\IProductoService.cs",
-              "RelativeToolTip": "TechNova.Logic\\Interfaces\\IProductoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T14:12:46.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\ProductoService.cs",
-              "RelativeDocumentMoniker": "TechNova.Logic\\Services\\ProductoService.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\ProductoService.cs",
-              "RelativeToolTip": "TechNova.Logic\\Services\\ProductoService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:19:08.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "IMarcaRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\IMarcaRepository.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Interfaces\\IMarcaRepository.cs",
@@ -147,20 +235,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoesController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\ProductoesController.cs",
-              "RelativeDocumentMoniker": "TechNova.API\\Controllers\\ProductoesController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Controllers\\ProductoesController.cs",
-              "RelativeToolTip": "TechNova.API\\Controllers\\ProductoesController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAADwv24AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "IProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\IProductoService.cs",
+              "RelativeDocumentMoniker": "TechNova.Logic\\Interfaces\\IProductoService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\IProductoService.cs",
+              "RelativeToolTip": "TechNova.Logic\\Interfaces\\IProductoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T04:05:58.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T14:12:46.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\ProductoRepository.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Repository\\ProductoRepository.cs",
@@ -172,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\appsettings.json",
               "RelativeDocumentMoniker": "TechNova.API\\appsettings.json",
@@ -180,12 +267,11 @@
               "RelativeToolTip": "TechNova.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-05T03:28:58.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T03:28:58.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "IProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\IProductoRepository.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Interfaces\\IProductoRepository.cs",
@@ -197,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "IMarcaService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\IMarcaService.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Interfaces\\IMarcaService.cs",
@@ -209,31 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MarcaService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\MarcaService.cs",
-              "RelativeDocumentMoniker": "TechNova.Logic\\Services\\MarcaService.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\MarcaService.cs",
-              "RelativeToolTip": "TechNova.Logic\\Services\\MarcaService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T01:54:47.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MarcaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\MarcaRepository.cs",
-              "RelativeDocumentMoniker": "TechNova.Logic\\Repository\\MarcaRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\MarcaRepository.cs",
-              "RelativeToolTip": "TechNova.Logic\\Repository\\MarcaRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwC4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T01:34:33.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ICategoriaService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\ICategoriaService.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Interfaces\\ICategoriaService.cs",
@@ -245,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ICategoriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Interfaces\\ICategoriaRepository.cs",
@@ -257,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Program.cs",
               "RelativeDocumentMoniker": "TechNova.API\\Program.cs",
@@ -269,19 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "TechNova.Logic\\Repository\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\CategoriaRepository.cs",
-              "RelativeToolTip": "TechNova.Logic\\Repository\\CategoriaRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA5wDoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:37:31.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "TechNovaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Data\\TechNovaDbContext.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Data\\TechNovaDbContext.cs",
@@ -293,19 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "TechNova.Logic\\Services\\CategoriaService.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Services\\CategoriaService.cs",
-              "RelativeToolTip": "TechNova.Logic\\Services\\CategoriaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T19:40:37.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Models\\Categoria.cs",
@@ -317,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Models\\Marca.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Models\\Marca.cs",
@@ -329,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Models\\Producto.cs",
@@ -341,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "TechNova.Logic.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\TechNova.Logic.csproj",
               "RelativeDocumentMoniker": "TechNova.Logic\\TechNova.Logic.csproj",

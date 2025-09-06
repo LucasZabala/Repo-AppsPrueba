@@ -4,45 +4,44 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using Microsoft.EntityFrameworkCore;
 using TechNova.Logic.Data;
-using TechNova.Logic.Interfaces;
 using TechNova.Logic.Models;
+using TechNova.Logic.Services;
 
 namespace TechNova.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductoesController : ControllerBase
+    public class MarcasController : ControllerBase
     {
-        private readonly IProductoService _productoService;
+        private readonly MarcaService _marcaService;
 
-        public ProductoesController(IProductoService productoService)
+        public MarcasController(MarcaService marcaService)
         {
-            _productoService = productoService;
+            _marcaService = marcaService;
         }
 
-        // GET: api/Productoes
+        // GET: api/Marcas
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
+        public async Task<ActionResult<IEnumerable<Marca>>> GetMarcas()
         {
-            var productos = await _productoService.GetAllProductosAsync();
-            return Ok(productos);
+            var marcas = await _marcaService.GetAllMarcasAsync();
+            return Ok(marcas);
         }
 
-        // GET: api/Productoes/5
+        // GET: api/Marcas/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Producto>> GetProducto(int id)
+        public async Task<ActionResult<Marca>> GetMarca(int id)
         {
+
             try
             {
-                var prodcuto = await _productoService.GetProductoByIdAsync(id);
-                return Ok(prodcuto);
+                var marca = await _marcaService.GetMarcaByIdAsync(id);
+                return Ok(marca);
             }
-            catch (InvalidOperationException ex)
+            catch (ArgumentNullException ex)
             {
-                //Se manda como objeto json
                 return NotFound(new { message = ex.Message });
             }
             catch (Exception ex)
@@ -51,21 +50,22 @@ namespace TechNova.API.Controllers
             }
         }
 
-        // PUT: api/Productoes/5
+        // PUT: api/Marcas/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProducto(int id, Producto producto)
+        public async Task<IActionResult> PutMarca(int id, Marca marca)
         {
-            if (id != producto.Id)
+            if (id != marca.Id)
             {
-                return BadRequest(new { message = "El ID de la URL no coincide con el ID del producto." });
+                return BadRequest();
             }
+
             try
             {
-                await _productoService.UpdateProductoAsync(producto);
+                await _marcaService.UpdateMarcaAsync(marca);
                 return Ok();
             }
-            catch (InvalidOperationException ex)
+            catch (ArgumentNullException ex)
             {
                 return NotFound(new { message = ex.Message });
             }
@@ -76,17 +76,17 @@ namespace TechNova.API.Controllers
 
         }
 
-        // POST: api/Productoes
+        // POST: api/Marcas
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Producto>> PostProducto(Producto producto)
+        public async Task<ActionResult<Marca>> PostMarca(Marca marca)
         {
             try
             {
-                await _productoService.AddProductoAsync(producto);
+                await _marcaService.AddMarcaAsync(marca);
                 return Ok();
             }
-            catch (InvalidOperationException ex)
+            catch (ArgumentNullException ex)
             {
                 return NotFound(new { message = ex.Message });
             }
@@ -96,14 +96,18 @@ namespace TechNova.API.Controllers
             }
         }
 
-        // DELETE: api/Productoes/5
+        // DELETE: api/Marcas/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProducto(int id)
+        public async Task<IActionResult> DeleteMarca(int id)
         {
             try
             {
-                await _productoService.DeleteProductoAsync(id);
+                await _marcaService.DeleteMarcaAsync(id);
                 return Ok();
+            }
+            catch (ArgumentNullException ex)
+            {
+                return NotFound(new { message = ex.Message });
             }
             catch (Exception ex)
             {

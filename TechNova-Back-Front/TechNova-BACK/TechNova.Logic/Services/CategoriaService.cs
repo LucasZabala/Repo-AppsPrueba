@@ -24,7 +24,12 @@ namespace TechNova.Logic.Services
 
         public async Task<Categoria> GetCategoriaByIdAsync(int id)
         {
-            return await _categoriaRepository.GetCategoriaByIdAsync(id);
+            var categoria = await _categoriaRepository.GetCategoriaByIdAsync(id);
+            if(categoria == null)
+            {
+                throw new InvalidOperationException("La categoria no existe");
+            }
+            return categoria;
         }
 
         public async Task AddCategoriaAsync(Categoria categoria)

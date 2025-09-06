@@ -24,7 +24,11 @@ namespace TechNova.Logic.Services
 
         public async Task<Marca> GetMarcaByIdAsync(int id)
         {
-            return await _marcaRepository.GetMarcaByIdAsync(id);
+            var marca = await _marcaRepository.GetMarcaByIdAsync(id);
+            if (marca == null) { 
+                throw new ArgumentNullException("No existe marca con ese Id");
+            }
+            return marca;
         }
 
         public async Task AddMarcaAsync(Marca marca)
