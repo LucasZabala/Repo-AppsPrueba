@@ -7795,11 +7795,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\TechNova.API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\TechNova.API.csproj",
       "projectName": "TechNova.API",
-      "projectPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\TechNova.API.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\TechNova.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7820,8 +7820,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\TechNova.Logic.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\Tienda-Electronic\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\TechNova.Logic.csproj"
+            "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\TechNova.Logic.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\TechNova.Logic.csproj"
             }
           }
         }
