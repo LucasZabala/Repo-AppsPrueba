@@ -14,12 +14,10 @@ namespace Concierto.Logic.Data
         {
         }
 
-        public DbSet<User> Usuarios { get; set; }
-        public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Empleado> Empleados { get; set; }
-        public DbSet<Evento> Conciertos { get; set; }
+        public DbSet<Evento> Eventos { get; set; }
         public DbSet<Boleto> Boletos { get; set; }
         public DbSet<Asiento> Asientos { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -41,13 +39,13 @@ namespace Concierto.Logic.Data
             modelBuilder.Entity<Boleto>()
                 .HasOne(b => b.Asiento)
                 .WithOne(a => a.Boleto)
-                .HasForeignKey<Asiento>(a => a.Id_Boleto);
+                .HasForeignKey<Boleto>(b => b.AsientoId);
 
             // Relación uno a muchos: un evento tiene muchos boletos
             modelBuilder.Entity<Evento>()
                 .HasMany(e => e.Boletos)
-                .WithOne()
-                .HasForeignKey("EventoId")
+                .WithOne(b=>b.Evento)
+                .HasForeignKey(b=>b.EventoId)
                 .IsRequired();
         }
 

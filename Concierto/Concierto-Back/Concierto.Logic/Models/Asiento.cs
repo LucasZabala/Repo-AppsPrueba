@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Concierto.Logic.Models
@@ -27,7 +28,7 @@ namespace Concierto.Logic.Models
         [Required]
         [StringLength(50)]
         public string Estado { get; set; }
-        public int Id_Boleto { get; set; }
+        
         public Boleto Boleto { get; set; }
     }
 }
