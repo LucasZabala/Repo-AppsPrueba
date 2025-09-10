@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,16 +20,13 @@ namespace Concierto.Logic.Models
         [Required]
         public int NumAsiento { get; set; }
         [Required]
-        [MaxLength(50)]
-        public string Tipo { get; set; }
-        [Required]
         [Column(TypeName = "Decimal")]
         [Precision(18, 2)]
         public decimal Precio { get; set; }
         [Required]
-        [StringLength(50)]
-        public string Estado { get; set; }
-        
-        public Boleto Boleto { get; set; }
+        public bool Estado { get; set; } //Libre(1) o Ocupado(0)
+        [Required]
+        public int EventoId { get; set; }
+        public Evento? Evento { get; set; }
     }
 }

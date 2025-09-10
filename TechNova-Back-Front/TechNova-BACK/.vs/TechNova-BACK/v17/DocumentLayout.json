@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\proyectospractica\\technova-back-front\\technova-back\\technova.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|solutionrelative:technova.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\technova-back-front\\technova-back\\technova.logic\\data\\technovadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\data\\technovadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\technova-back-front\\technova-back\\technova.logic\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A080A571-2AE9-40D4-81B3-840BC60C42D1}|TechNova.Logic\\TechNova.Logic.csproj|solutionrelative:technova.logic\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\proyectospractica\\technova-back-front\\technova-back\\technova.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|solutionrelative:technova.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{597D3B79-D04A-40E5-8E0E-303B1A4CBE22}|TechNova.API\\TechNova.API.csproj|c:\\users\\user\\documents\\proyectospractica\\technova-back-front\\technova-back\\technova.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MarcaRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\MarcaRepository.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Repository\\MarcaRepository.cs",
@@ -130,19 +130,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Program.cs",
               "RelativeDocumentMoniker": "TechNova.API\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.API\\Program.cs",
               "RelativeToolTip": "TechNova.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAArwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T03:38:26.184Z"
+              "WhenOpened": "2025-09-05T03:38:26.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TechNovaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Data\\TechNovaDbContext.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Data\\TechNovaDbContext.cs",
@@ -155,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Models\\Categoria.cs",
@@ -167,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Models\\Producto.cs",
@@ -179,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Models\\Marca.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Models\\Marca.cs",
@@ -191,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\TechNova-Back-Front\\TechNova-BACK\\TechNova.Logic\\Repository\\ProductoRepository.cs",
               "RelativeDocumentMoniker": "TechNova.Logic\\Repository\\ProductoRepository.cs",
@@ -199,8 +200,7 @@
               "RelativeToolTip": "TechNova.Logic\\Repository\\ProductoRepository.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:18:05.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T13:18:05.688Z"
             },
             {
               "$type": "Document",

@@ -16,14 +16,27 @@ namespace Concierto.Logic.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        [MaxLength(200)]
-        public string Nombre { get; set; }
+        [MaxLength(50)]
+        public string TituloEvento { get; set; }
         [Required]
-        public System.DateTime Fecha { get; set; }
+        [Column(TypeName = "Data")]
+        public DateOnly Fecha { get; set; } // 9/12/2025
         [Required]
-        [MaxLength(200)]
-        public string Lugar { get; set; }
-        [JsonIgnore]
-        public ICollection<Boleto> Boletos { get; set; }
+        public TimeOnly HoraInicio {  get; set; }
+        [Required]
+        public TimeOnly HoraFin { get; set; }
+        public int Capacidad { get; set; } //Cantidad de boletos y cantidad de asientos
+        [Required]
+        public int LugarId { get; set; }
+        [Required]
+        public int AdministradorId { get; set; } // Quiern crea el Evento
+
+        public ICollection<Cantante>? Cantantes { get; set; }//Cantantes que cantan
+        public Lugar? Lugar { get; set; }
+        public ICollection<Asiento>? Asientos { get; set; } //Todos los Asientos
+        public Administrador? Administrador { get; set; } // Quien agrego el evento
+        public ICollection<Cliente>? Clientes { get; set; }
+
+
     }
 }

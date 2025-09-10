@@ -13,10 +13,11 @@ namespace Concierto.Logic.Models
     public class User: IdentityUser
     {
         [Required]
-        [MaxLength(100)]
-        public string NombreyApellido { get; set; }
+        [MaxLength(50)]
+        public string Nombre { get; set; }
+
         [Required]
-        [MaxLength(100)]
-        public string Identificacion { get; set; }
+        [MaxLength(50)]
+        public string Appellido { get; set; }
     }
 }

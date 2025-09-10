@@ -4,18 +4,17 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Concierto.Logic.Models
 {
-    [Table("Clientes")]
-    public class Cliente : User
+    [Table("Administradores")]
+    public class Administrador : User
     {
         [Required]
         [MaxLength(100)]
-        public string Dni { get; set; }
-        public ICollection<Boleto>? Boletos { get; set; } //Boletos que Compro
-        public ICollection<Evento>? Eventos { get; set; } //Eventos en los que compro boletos
+        public string NroAdministrador { get; set; }
+
+        public ICollection<Evento>? Eventos { get; set; } //Eventos que agrego
     }
 }

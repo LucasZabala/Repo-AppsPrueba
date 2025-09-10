@@ -22,21 +22,14 @@ namespace Concierto.Logic.Models
         [StringLength(50)]
         public string Code { get; set; }
         [Required]
-        [StringLength(50)]
-        public string Estado { get; set; }
+        public bool Estado { get; set; }
         [Required]
         public DateTime FechaCompra { get; set; }
-        public int EventoId { get; set; }
-        public int ClienteId { get; set; }
-        public int? EmpleadoId { get; set; }
-        public int AsientoId { get; set; }
-        
-        public Evento? Evento { get; set; }
-        
+        public int? ClienteId { get; set; }
+        public int? EventoId { get; set; }
+        public int? AsientoId { get; set; }
         public Cliente? Cliente { get; set; }
-        
-        public Empleado? Empleado { get; set; }
-        
+        public Evento? Evento { get; set; }        
         public Asiento? Asiento { get; set; }
 
     }
