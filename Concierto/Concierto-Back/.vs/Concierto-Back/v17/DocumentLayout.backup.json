@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\data\\conciertodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\cantante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\cantante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\eventocantante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\eventocantante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\lugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\lugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\cantante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|solutionrelative:concierto.logic\\models\\cantante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4AB2282-B306-4FD5-BA40-7144600A1AF0}|Concierto.Logic\\Concierto.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\concierto\\concierto-back\\concierto.logic\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,22 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Cliente.cs",
-              "RelativeToolTip": "Concierto.Logic\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T01:23:52.809Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -70,33 +64,46 @@
               "RelativeDocumentMoniker": "Concierto.Logic\\Data\\ConciertoDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Data\\ConciertoDbContext.cs",
               "RelativeToolTip": "Concierto.Logic\\Data\\ConciertoDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA6wC4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvz8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T01:57:14.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Evento.cs",
-              "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Evento.cs",
-              "RelativeToolTip": "Concierto.Logic\\Models\\Evento.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EventoCantante.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\EventoCantante.cs",
+              "RelativeDocumentMoniker": "Concierto.Logic\\Models\\EventoCantante.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\EventoCantante.cs",
+              "RelativeToolTip": "Concierto.Logic\\Models\\EventoCantante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T01:54:55.676Z",
+              "WhenOpened": "2025-09-11T01:45:47.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Cliente.cs",
+              "RelativeToolTip": "Concierto.Logic\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T01:23:52.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Asiento.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Asiento.cs",
               "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Asiento.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Asiento.cs",
               "RelativeToolTip": "Concierto.Logic\\Models\\Asiento.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T01:53:13.874Z",
               "EditorCaption": ""
@@ -109,53 +116,79 @@
               "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Boleto.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Boleto.cs",
               "RelativeToolTip": "Concierto.Logic\\Models\\Boleto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T01:38:13.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Cantante.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Cantante.cs",
               "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Cantante.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Cantante.cs",
               "RelativeToolTip": "Concierto.Logic\\Models\\Cantante.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T01:34:47.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Evento.cs",
+              "RelativeToolTip": "Concierto.Logic\\Models\\Evento.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T01:54:55.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lugar.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Lugar.cs",
+              "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Lugar.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Lugar.cs",
+              "RelativeToolTip": "Concierto.Logic\\Models\\Lugar.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T23:48:53.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Empleado.cs",
               "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Empleado.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Empleado.cs",
               "RelativeToolTip": "Concierto.Logic\\Models\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T01:23:46.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Administrador.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Administrador.cs",
               "RelativeDocumentMoniker": "Concierto.Logic\\Models\\Administrador.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\Administrador.cs",
               "RelativeToolTip": "Concierto.Logic\\Models\\Administrador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T01:13:33.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\Concierto\\Concierto-Back\\Concierto.Logic\\Models\\User.cs",
               "RelativeDocumentMoniker": "Concierto.Logic\\Models\\User.cs",

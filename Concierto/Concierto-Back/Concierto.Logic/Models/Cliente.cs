@@ -13,9 +13,8 @@ namespace Concierto.Logic.Models
     public class Cliente : User
     {
         [Required]
-        [MaxLength(100)]
-        public string Dni { get; set; }
+        [MaxLength(50)]
+        public string NombreUsuario { get; set; }
         public ICollection<Boleto>? Boletos { get; set; } //Boletos que Compro
-        public ICollection<Evento>? Eventos { get; set; } //Eventos en los que compro boletos
     }
 }

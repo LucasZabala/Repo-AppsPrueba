@@ -13,8 +13,6 @@ namespace Concierto.Logic.Models
     {
         [Required]
         [MaxLength(100)]
-        public string NroAdministrador { get; set; }
-
-        public ICollection<Evento>? Eventos { get; set; } //Eventos que agrego
+        public string? NroAdministrador { get; set; }
     }
 }

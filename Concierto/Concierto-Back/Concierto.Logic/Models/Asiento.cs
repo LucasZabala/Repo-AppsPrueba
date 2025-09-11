@@ -20,13 +20,10 @@ namespace Concierto.Logic.Models
         [Required]
         public int NumAsiento { get; set; }
         [Required]
-        [Column(TypeName = "Decimal")]
-        [Precision(18, 2)]
-        public decimal Precio { get; set; }
-        [Required]
         public bool Estado { get; set; } //Libre(1) o Ocupado(0)
         [Required]
-        public int EventoId { get; set; }
-        public Evento? Evento { get; set; }
+        public int LugarId { get; set; }
+        public Lugar? Lugar { get; set; }
+        public ICollection<Boleto>? Boletos { get; set; }
     }
 }

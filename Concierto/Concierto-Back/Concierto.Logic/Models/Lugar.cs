@@ -17,11 +17,14 @@ namespace Concierto.Logic.Models
         [Required]
         [Unicode]
         [MaxLength(100)]
-        public string Nombre { get; set; }
-        [Required]
+        public string? Nombre { get; set; }
         [Unicode]
         [MaxLength(500)]
-        public string Direccion { get; set; }
+        public string? Direccion { get; set; }
+        [Required]
+        public int CantidadAsientos { get; set; } //Cantidad de boletos y cantidad de asientos
+
+        public ICollection<Asiento>? Asientos { get; set; } //Todos los Asientos
 
         public ICollection<Evento>? Eventos { get; set; } //cantodad de Eventos que hay 
     }

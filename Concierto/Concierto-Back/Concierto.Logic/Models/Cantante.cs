@@ -15,9 +15,10 @@ namespace Concierto.Logic.Models
         public int Id { get; set; }
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string? NombreArtistico { get; set; }
 
-        public ICollection<Evento>? Eventos { get; set; } //Eventos donde canta
+        public ICollection<EventoCantante>? EventosCantante { get; set; }
+
 
     }
 }
