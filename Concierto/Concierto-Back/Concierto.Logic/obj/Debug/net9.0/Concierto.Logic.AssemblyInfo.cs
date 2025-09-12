@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Concierto.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bd73275e8143686c64151d7013105f28aa2fa8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c19af9136d13d983034b82b8b4ca8a86b00dc98")]
 [assembly: System.Reflection.AssemblyProductAttribute("Concierto.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Concierto.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

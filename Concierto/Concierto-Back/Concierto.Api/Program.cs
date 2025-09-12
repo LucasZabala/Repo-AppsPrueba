@@ -18,41 +18,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ConciertoDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// ----- NUEVA CONFIGURACIÓN PARA AUTENTICACIÓN -----
-// 1. Configurar Identity con la clase de usuario personalizada y el DbContext
-builder.Services.AddIdentity<User, IdentityRole>(options =>
-{
-    options.Password.RequireDigit = false;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireUppercase = false;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredLength = 6;
-})
-.AddEntityFrameworkStores<ConciertoDbContext>()
-.AddDefaultTokenProviders();
-
-// 2. Configurar JWT Bearer Authentication
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
-        ValidAudience = builder.Configuration["JwtSettings:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]))
-    };
-});
-
-// 3. Agregar el servicio de generación de JWT
-builder.Services.AddScoped<JwtService>();
 
 // Se agregan las interfaces para inyección de dependencias
 //Admin
@@ -111,12 +76,6 @@ app.UseHttpsRedirection();
 // Enrruta las solicitudes a los controladores correctos
 app.UseRouting();
 
-// ----- NUEVOS COMPONENTES DEL MIDDLEWARE -----
-// 1. Habilitar el middleware de autenticación
-app.UseAuthentication();
-// 2. Habilitar el middleware de autorización
-app.UseAuthorization();
-// 3. Habilitar politica cors
 app.UseCors(MyAllowSpecificOrigins);
 
 app.MapControllers();
