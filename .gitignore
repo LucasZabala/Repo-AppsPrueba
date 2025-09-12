@@ -85,3 +85,45 @@ TechNova-Back-Front/TechNova-Front/typings
 TechNova-Back-Front/TechNova-Front/.DS_Store
 TechNova-Back-Front/TechNova-Front/Thumbs.db
 
+#////////////////////CONCIERTO
+
+# Compiled output
+Concierto/Concierto-Front/dist
+Concierto/Concierto-Front/tmp
+Concierto/Concierto-Front/out-tsc
+Concierto/Concierto-Front/bazel-out
+
+# Node
+Concierto/Concierto-Front/node_modules
+Concierto/Concierto-Front/npm-debug.log
+Concierto/Concierto-Front/yarn-error.log
+
+# IDEs and editors
+Concierto/Concierto-Front/.idea/
+Concierto/Concierto-Front/.project
+Concierto/Concierto-Front/.classpath
+Concierto/Concierto-Front/.c9/
+Concierto/Concierto-Front/*.launch
+Concierto/Concierto-Front/.settings/
+Concierto/Concierto-Front/*.sublime-workspace
+
+# Visual Studio Code
+Concierto/Concierto-Front/.vscode/*
+Concierto/Concierto-Front/!.vscode/settings.json
+Concierto/Concierto-Front/!.vscode/tasks.json
+Concierto/Concierto-Front/!.vscode/launch.json
+Concierto/Concierto-Front/!.vscode/extensions.json
+Concierto/Concierto-Front/.history/*
+
+# Miscellaneous
+Concierto/Concierto-Front/.angular/cache
+Concierto/Concierto-Front/.sass-cache/
+Concierto/Concierto-Front/connect.lock
+Concierto/Concierto-Front/coverage
+Concierto/Concierto-Front/libpeerconnection.log
+Concierto/Concierto-Front/testem.log
+Concierto/Concierto-Front/typings
+
+# System files
+Concierto/Concierto-Front/.DS_Store
+Concierto/Concierto-Front/Thumbs.db

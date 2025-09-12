@@ -2,11 +2,8 @@ using Concierto.Logic.Data;
 using Concierto.Logic.Interfaces;
 using Concierto.Logic.Repository;
 using Concierto.Logic.Services;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Concierto.Logic.Models;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 //Definir nombre politica cors
@@ -31,7 +28,7 @@ builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
 //Lugar
 builder.Services.AddScoped<ILugarRepository, LugarRepository>();
-builder.Services.AddScoped<ILugarService, ILugarService>();
+builder.Services.AddScoped<ILugarService, LugarService>();
 //Cantante
 builder.Services.AddScoped<ICantanteRepository, CantanteRepository>();
 builder.Services.AddScoped<ICantanteService, CantanteService>();

@@ -10,11 +10,17 @@ using System.Threading.Tasks;
 namespace Concierto.Logic.Models
 {
     [Table("Empleados")]
-    public class Empleado:User
+    public class Empleado
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
         [Required]
-        [MaxLength(100)]
-        public string? NombreEmpleado { get; set; }
+        [MaxLength(50)]
+        public string? Nombre { get; set; }
+        [Required]
+        [Length(4, 10)]
+        public string Pass { get; set; }
         [Required]
         public ICollection<EventoEmpleado>? EventosEmpleado { get; set; }
         

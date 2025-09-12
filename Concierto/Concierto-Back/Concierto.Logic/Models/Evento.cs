@@ -19,7 +19,6 @@ namespace Concierto.Logic.Models
         [MaxLength(50)]
         public string TituloEvento { get; set; }
         [Required]
-        [Column(TypeName = "Data")]
         public DateOnly Fecha { get; set; } // 2025/12/9
         [Required]
         public TimeOnly HoraInicio { get; set; }

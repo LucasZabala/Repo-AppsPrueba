@@ -1,5 +1,4 @@
 ﻿using Concierto.Logic.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Concierto.Logic.Data
 {
-    public class ConciertoDbContext : IdentityDbContext<User>
+    public class ConciertoDbContext : DbContext
     {
         public ConciertoDbContext(DbContextOptions options) : base(options)
         {
@@ -77,7 +76,8 @@ namespace Concierto.Logic.Data
             modelBuilder.Entity<Boleto>()
                 .HasOne(b => b.Asiento)
                 .WithMany(a => a.Boletos)
-                .HasForeignKey(b => b.AsientoId);
+                .HasForeignKey(b => b.AsientoId)
+                .OnDelete(DeleteBehavior.NoAction);
 
             //Boleto: Tiene un Cliente
             modelBuilder.Entity<Boleto>()

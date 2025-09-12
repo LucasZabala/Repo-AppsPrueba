@@ -12,9 +12,9 @@ namespace Concierto.Logic.Services
 {
     public class EmpleadoService: IEmpleadoService
     {
-        private readonly EmpleadoRepository _empleadoRepository;
+        private readonly IEmpleadoRepository _empleadoRepository;
 
-        public EmpleadoService(EmpleadoRepository empleadoRepository)
+        public EmpleadoService(IEmpleadoRepository empleadoRepository)
         {
             _empleadoRepository = empleadoRepository;   
         }

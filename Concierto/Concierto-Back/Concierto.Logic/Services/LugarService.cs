@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Concierto.Logic.Services
 {
-    internal class LugarService: ILugarService
+    public class LugarService: ILugarService
     {
-        private readonly LugarRepository _lugarRepository;
+        private readonly ILugarRepository _lugarRepository;
 
-        public LugarService(LugarRepository lugarRepository)
+        public LugarService(ILugarRepository lugarRepository)
         {
             _lugarRepository = lugarRepository;
         }

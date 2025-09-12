@@ -1,0 +1,15 @@
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.csproj.AssemblyReference.cache
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.AssemblyInfoInputs.cache
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.AssemblyInfo.cs
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.sourcelink.json
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\bin\Debug\net9.0\Concierto.Logic.deps.json
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\bin\Debug\net9.0\Concierto.Logic.runtimeconfig.json
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\bin\Debug\net9.0\Concierto.Logic.dll
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\bin\Debug\net9.0\Concierto.Logic.pdb
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.dll
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\refint\Concierto.Logic.dll
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.pdb
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\Concierto.Logic.genruntimeconfig.cache
+C:\Users\User\Documents\ProyectosPractica\Concierto\Concierto-Back\Concierto.Logic\obj\Debug\net9.0\ref\Concierto.Logic.dll
