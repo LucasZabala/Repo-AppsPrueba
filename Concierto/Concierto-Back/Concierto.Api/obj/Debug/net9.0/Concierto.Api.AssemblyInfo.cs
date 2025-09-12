@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Concierto.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72e56ae46942a2564d97c5b0fcce2b9e651e6e3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bd73275e8143686c64151d7013105f28aa2fa8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Concierto.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Concierto.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

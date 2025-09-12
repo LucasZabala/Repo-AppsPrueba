@@ -14,9 +14,9 @@ namespace Concierto.Logic.Models
     {
         [Required]
         [MaxLength(100)]
-        public string? NroEmpleado { get; set; }
+        public string? NombreEmpleado { get; set; }
         [Required]
-        public ICollection<Evento>? Eventos { get; set; }
+        public ICollection<EventoEmpleado>? EventosEmpleado { get; set; }
         
     }
 }

@@ -29,7 +29,7 @@ namespace Concierto.Logic.Models
         public int LugarId { get; set; }
         public Lugar? Lugar { get; set; }
         public ICollection<EventoCantante>? EventoCantantes { get; set; }
-        public ICollection<Empleado>? Empleados { get; set; }
+        public ICollection<EventoEmpleado>? EventoEmpleados { get; set; }
         public ICollection<Boleto>? Boletos { get; set; }
     }
 }

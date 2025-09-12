@@ -20,7 +20,7 @@ namespace Concierto.Logic.Models
         [Required]
         public int NumAsiento { get; set; }
         [Required]
-        public bool Estado { get; set; } //Libre(1) o Ocupado(0)
+        public bool Estado { get; set; } 
         [Required]
         public int LugarId { get; set; }
         public Lugar? Lugar { get; set; }

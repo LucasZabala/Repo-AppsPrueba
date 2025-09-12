@@ -13,6 +13,6 @@ namespace Concierto.Logic.Models
     {
         [Required]
         [MaxLength(100)]
-        public string? NroAdministrador { get; set; }
+        public string? NombreAdministrador { get; set; }
     }
 }
