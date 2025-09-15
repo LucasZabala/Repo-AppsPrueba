@@ -1,0 +1,138 @@
+@use "../../variables.scss" as var;
+@use "../../mixins.scss" as mix;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.filtro{
+  @include mix.filtro;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  background-color: var.$color-card-fondo;
+  border-bottom: 0.2vw solid var.$color-naranja-brillante;
+  .cont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+
+    .title {
+      color: var.$color-naranja-brillante;
+      font-size: 2.5vw;
+    }
+
+    .cont-nav {
+      font-size: 1.5vw;
+      color: var.$color-texto-claro;
+      margin: 0 2vw;
+      width: 6vw;
+      display: flex;
+      justify-content: center;
+      .nav {
+        width: 0vw;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.4s ease;
+      }
+
+      .nav:hover {
+        width: 100%;
+        border-bottom: 0.1vw solid var.$color-naranja-brillante;
+      }
+    }
+    .select-nav {
+      color: var.$color-naranja-brillante;
+    }
+  }
+}
+
+main {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  height: 84.7vh;
+  width: 100%;
+  background-image: var.$radial-gradient;
+  color: var(var.$color-texto-claro);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.cont-padre{
+  width: 100%;
+  height: 100%;
+
+  .cont-title-btn{
+    width: 85%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  h2{
+    color: var.$color-naranja-brillante;
+    text-align: center;
+    padding: 1vw;
+  }
+
+  .btn-agregar{
+    font-weight: 600;
+    width: 10vw;
+    height: 3vw;
+    border: .1vw solid var.$color-naranja-brillante;
+    border-radius: .5vw;
+    background-color: transparent;
+    color: var.$color-naranja-brillante;
+    font-size: 1.1vw;
+    cursor: pointer;
+    transition: all .4s ease;
+    position: absolute;
+    right: 3vw;
+
+
+    &:hover{
+      background-color: var.$color-naranja-brillante;
+      color: var.$color-texto-claro;
+    }
+  }
+
+  .cont-events{
+    width: 85%;
+    height: 85%;
+    border: .1vw solid var.$color-naranja-brillante;
+    border-radius: 1vw;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    overflow-y: auto;
+    justify-content: center;
+
+    &::-webkit-scrollbar {
+      width: 0vw;
+    }
+
+    .event{
+      width: 15vw;
+      height: 17vw;
+      border: .1vw solid var.$color-naranja-brillante;
+      margin: 1vw;
+      border-radius: 1vw;
+
+      .info-event{
+        color: var.$color-texto-claro;
+      }
+
+    }
+    
+  }
+
+}
+

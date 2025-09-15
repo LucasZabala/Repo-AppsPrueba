@@ -127,3 +127,49 @@ Concierto/Concierto-Front/typings
 # System files
 Concierto/Concierto-Front/.DS_Store
 Concierto/Concierto-Front/Thumbs.db
+
+
+#/////////////////////////////////CRUD IMAGENES
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+CRUDImagenes/CRUDImagenes-Front/dist
+CRUDImagenes/CRUDImagenes-Front/tmp
+CRUDImagenes/CRUDImagenes-Front/out-tsc
+CRUDImagenes/CRUDImagenes-Front/bazel-out
+
+# Node
+CRUDImagenes/CRUDImagenes-Front/node_modules
+CRUDImagenes/CRUDImagenes-Front/npm-debug.log
+CRUDImagenes/CRUDImagenes-Front/yarn-error.log
+
+# IDEs and editors
+CRUDImagenes/CRUDImagenes-Front/.idea/
+CRUDImagenes/CRUDImagenes-Front/.project
+CRUDImagenes/CRUDImagenes-Front/.classpath
+CRUDImagenes/CRUDImagenes-Front/.c9/
+CRUDImagenes/CRUDImagenes-Front/*.launch
+CRUDImagenes/CRUDImagenes-Front/.settings/
+CRUDImagenes/CRUDImagenes-Front/*.sublime-workspace
+
+# Visual Studio Code
+CRUDImagenes/CRUDImagenes-Front/.vscode/*
+CRUDImagenes/CRUDImagenes-Front/!.vscode/settings.json
+CRUDImagenes/CRUDImagenes-Front/!.vscode/tasks.json
+CRUDImagenes/CRUDImagenes-Front/!.vscode/launch.json
+CRUDImagenes/CRUDImagenes-Front/!.vscode/extensions.json
+CRUDImagenes/CRUDImagenes-Front/.history/*
+
+# Miscellaneous
+CRUDImagenes/CRUDImagenes-Front/.angular/cache
+CRUDImagenes/CRUDImagenes-Front/.sass-cache/
+CRUDImagenes/CRUDImagenes-Front/connect.lock
+CRUDImagenes/CRUDImagenes-Front/coverage
+CRUDImagenes/CRUDImagenes-Front/libpeerconnection.log
+CRUDImagenes/CRUDImagenes-Front/testem.log
+CRUDImagenes/CRUDImagenes-Front/typings
+
+# System files
+CRUDImagenes/CRUDImagenes-Front/.DS_Store
+CRUDImagenes/CRUDImagenes-Front/Thumbs.db
+#/////////////////////////////////CRUD VIDEOS

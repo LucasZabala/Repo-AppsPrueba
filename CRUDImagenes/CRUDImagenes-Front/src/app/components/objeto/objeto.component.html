@@ -1,0 +1,24 @@
+<main>
+  <h1>Imagenes</h1>
+  <div class="cont-imges">
+    <div class="add-object">
+      <form (submit)="onSubmit()">
+        <input type="text" [(ngModel)]="titulo" name="titulo" />
+        <input type="text" [(ngModel)]="descripcion" name="descripcion" />
+        <input type="file" (change)="onFileSelected($event)" />
+        <button type="submit">Subir</button>
+      </form>
+    </div>
+    <button (click)="obtenerDatos()">Obtener</button>
+    <div class="list-container">
+      <div class="cont-img" *ngFor="let item of objetos; trackBy: trackByIndex">
+        <img
+          [src]="'https://localhost:7163/uploads/' + item.urlImg"
+          alt="imagen"
+        />
+        <p class="title">{{ item.titulo }}</p>
+        <p class="descripcion">{{ item.descripcion }}</p>
+      </div>
+    </div>
+  </div>
+</main>
