@@ -2,7 +2,7 @@
   <h1>Imagenes</h1>
   <div class="cont-imges">
     <div class="add-object">
-      <form (submit)="onSubmit()">
+      <form (submit)="onSubmitAdd()">
         <input type="text" [(ngModel)]="titulo" name="titulo" />
         <input type="text" [(ngModel)]="descripcion" name="descripcion" />
         <input type="file" (change)="onFileSelected($event)" />
@@ -10,15 +10,30 @@
       </form>
     </div>
     <button (click)="obtenerDatos()">Obtener</button>
-    <div class="list-container">
-      <div class="cont-img" *ngFor="let item of objetos; trackBy: trackByIndex">
-        <img
-          [src]="'https://localhost:7163/uploads/' + item.urlImg"
-          alt="imagen"
-        />
-        <p class="title">{{ item.titulo }}</p>
-        <p class="descripcion">{{ item.descripcion }}</p>
+    <div
+      class="list-container"
+      *ngFor="let item of objetos; trackBy: trackByIndex"
+    >
+      <div>
+        <div class="cont-img">
+          <img
+            [src]="'https://localhost:7163/uploads/' + item.urlImg"
+            alt="imagen"
+          />
+          <p class="title">{{ item.titulo }}</p>
+          <p class="descripcion">{{ item.descripcion }}</p>
+        </div>
+        <button (click)="eliminarObjeto(item.id)">Eliminar</button>
+        <button (click)="obtenerPorId(item.id)">Editar</button>
       </div>
+    </div>
+    <div class="edit-object">
+      <form (submit)="onSubmitEdit()">
+        <input type="text" [(ngModel)]="objetoEdit.titulo" name="titulo" />
+        <input type="text" [(ngModel)]="objetoEdit.descripcion" name="descripcion" />
+        <input type="file" (change)="onFileSelectedEdit($event)" />
+        <button type="submit">Editar</button>
+      </form>
     </div>
   </div>
 </main>

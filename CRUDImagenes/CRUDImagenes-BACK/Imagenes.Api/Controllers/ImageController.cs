@@ -20,9 +20,9 @@ namespace Imagenes.Api.Controllers
 
         // POST: api/Image/upload
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromForm] string titulo, [FromForm] string descripcion)
+        public async Task<IActionResult> UploadImage([FromForm] IFormFile file, [FromForm] string titulo, [FromForm]string descripcion)
         {
-            if (file == null || file.Length == 0 || string.IsNullOrEmpty(titulo))
+            if (file == null || file.Length == 0)
             {
                 return BadRequest("El archivo o el título no son válidos.");
             }
@@ -46,7 +46,7 @@ namespace Imagenes.Api.Controllers
             {
                 Titulo = titulo,
                 Descripcion = descripcion,
-                URLImg = uniqueFileName
+                URLImg = uniqueFileName,
             };
             await _objetoService.AddObjetoAsync(newObjeto);
 
@@ -55,7 +55,7 @@ namespace Imagenes.Api.Controllers
 
         // PUT: api/Image/edit
         [HttpPut("edit/{id}")]
-        public async Task<IActionResult> EditImage(int id, [FromForm] IFormFile newFile)
+        public async Task<IActionResult> EditImage(int id, [FromForm] IFormFile newFile, [FromForm] string titulo, [FromForm] string descripcion)
         {
             var objetoToUpdate = await _objetoService.GetByIdObjetoAsync(id);
             if (objetoToUpdate == null)
@@ -86,6 +86,8 @@ namespace Imagenes.Api.Controllers
 
             // 3. Actualizar el nombre en la base de datos
             objetoToUpdate.URLImg = uniqueNewFileName;
+            objetoToUpdate.Titulo = titulo;
+            objetoToUpdate.Descripcion = descripcion;
             await _objetoService.UpdateObjetoAsync(objetoToUpdate);
 
             return Ok(new { message = "Imagen y registro actualizados con éxito", newFileName = uniqueNewFileName });

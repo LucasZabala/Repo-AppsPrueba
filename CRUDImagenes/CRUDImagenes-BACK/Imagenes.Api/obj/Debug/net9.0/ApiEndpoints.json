@@ -57,6 +57,16 @@
         "Name": "FileName",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

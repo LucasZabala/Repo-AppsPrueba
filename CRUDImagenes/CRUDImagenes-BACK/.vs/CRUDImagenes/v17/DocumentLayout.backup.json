@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\service\\objetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\service\\objetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\repository\\objetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\repository\\objetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\interface\\iobjetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\interface\\iobjetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +27,12 @@
       "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\models\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\models\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\repository\\objetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\repository\\objetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\controllers\\objetoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\controllers\\objetoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\service\\objetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\service\\objetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\interface\\iobjetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\interface\\iobjetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\interface\\iobjetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "IObjetoService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Interface\\IObjetoService.cs",
               "RelativeDocumentMoniker": "Imagenes.Logic\\Interface\\IObjetoService.cs",
@@ -74,31 +74,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ObjetoRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Repository\\ObjetoRepository.cs",
               "RelativeDocumentMoniker": "Imagenes.Logic\\Repository\\ObjetoRepository.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Repository\\ObjetoRepository.cs",
               "RelativeToolTip": "Imagenes.Logic\\Repository\\ObjetoRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T13:15:07.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ObjetoService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Service\\ObjetoService.cs",
               "RelativeDocumentMoniker": "Imagenes.Logic\\Service\\ObjetoService.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Service\\ObjetoService.cs",
               "RelativeToolTip": "Imagenes.Logic\\Service\\ObjetoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T13:15:09.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Objeto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Models\\Objeto.cs",
               "RelativeDocumentMoniker": "Imagenes.Logic\\Models\\Objeto.cs",
@@ -106,38 +106,36 @@
               "RelativeToolTip": "Imagenes.Logic\\Models\\Objeto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T13:12:53.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T13:12:53.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ImageController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ImageController.cs",
               "RelativeDocumentMoniker": "Imagenes.Api\\Controllers\\ImageController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "Imagenes.Api\\Controllers\\ImageController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ImageController.cs*",
+              "RelativeToolTip": "Imagenes.Api\\Controllers\\ImageController.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAC4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T13:14:39.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Program.cs",
               "RelativeDocumentMoniker": "Imagenes.Api\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Program.cs",
               "RelativeToolTip": "Imagenes.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T14:37:41.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T14:37:41.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Imagenes.Api\\appsettings.json",
@@ -145,8 +143,7 @@
               "RelativeToolTip": "Imagenes.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-13T14:23:58.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T14:23:58.475Z"
             },
             {
               "$type": "Document",
@@ -162,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ObjetoesController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ObjetoesController.cs",
               "RelativeDocumentMoniker": "Imagenes.Api\\Controllers\\ObjetoesController.cs",

@@ -19,7 +19,12 @@ export class ObjetoService {
 
   //Obtener Objetos por Id
   public GetObjetoById(id: number): Observable<IObjeto> {
-    return this.http.get<IObjeto>(`${this.URLObject}/id`);
+    return this.http.get<IObjeto>(`${this.URLObject}/${id}`);
+  }
+
+  //Obtener imagen
+  public GetImageByURL(urlImg: string): Observable<File> {
+    return this.http.get<File>(`${this.URLImgs}/uploads/${urlImg}`);
   }
 
   //Crear un nuevo objeto
@@ -38,9 +43,11 @@ export class ObjetoService {
   }
 
   //EDITAR OBJETO
-  public UpdateObjeto(id: number, newFile: File): Observable<any> {
+  public UpdateObjeto(id: number, newFile: File, titulo: string, descripcion: string): Observable<any> {
     const formData = new FormData();
     formData.append('newFile', newFile);
+    formData.append('titulo', titulo);
+    formData.append('descripcion', descripcion);
 
     return this.http.put<any>(`${this.URLImgs}/edit/${id}`, formData);
   }
