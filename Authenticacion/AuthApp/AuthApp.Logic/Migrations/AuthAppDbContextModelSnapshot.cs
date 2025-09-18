@@ -47,6 +47,26 @@ namespace AuthApp.Logic.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "6a40a232-0947-4959-b1ff-97a151044454",
+                            Name = "Administrador",
+                            NormalizedName = "ADMINISTRADOR"
+                        },
+                        new
+                        {
+                            Id = "1e8df1d6-8b2b-47e1-8f55-1b4e05b9c054",
+                            Name = "Empleado",
+                            NormalizedName = "EMPLEADO"
+                        },
+                        new
+                        {
+                            Id = "5c5240e1-7e87-410a-8d76-d98c25732152",
+                            Name = "Cliente",
+                            NormalizedName = "CLIENTE"
+                        });
                 });
 
             modelBuilder.Entity("AuthApp.Logic.Models.User", b =>

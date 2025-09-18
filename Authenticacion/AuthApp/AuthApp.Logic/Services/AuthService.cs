@@ -41,7 +41,7 @@ namespace AuthApp.Logic.Services
                 FirstName = registerDto.FirstName,
                 LastName = registerDto.LastName,
                 UserName = registerDto.Username,
-                Email = registerDto.Username // Usamos el nombre de usuario como email en este ejemplo
+                Email = (registerDto.Username + "@gmail.com"), // Usamos el nombre de usuario como email en este ejemplo
             };
             var result = await _userManager.CreateAsync(user, registerDto.Password);
             if (!result.Succeeded)

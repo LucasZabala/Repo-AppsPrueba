@@ -42,7 +42,6 @@ builder.Services.AddAuthentication(options =>
 });
 
 // 4. Inyección de Dependencias
-// La inyección de UserRepository ahora es correcta ya que no necesita IDbConnection
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
@@ -84,19 +83,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
-// 8. Crear los roles iniciales
-using (var scope = app.Services.CreateScope())
-{
-    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<Role>>();
-    var roles = new[] { "Admin", "Employee", "Client" };
-    foreach (var role in roles)
-    {
-        if (!await roleManager.RoleExistsAsync(role))
-        {
-            await roleManager.CreateAsync(new Role { Name = role });
-        }
-    }
-}
 
 app.Run();

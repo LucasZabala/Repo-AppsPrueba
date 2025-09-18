@@ -175,6 +175,7 @@ CRUDImagenes/CRUDImagenes-Front/Thumbs.db
 #///////////////////////////////// Authenticacion //////////////////////
 # Compiled output
 Authenticacion/AuthApp-Front/dist
+Authenticacion/AuthApp-Front/dist
 Authenticacion/AuthApp-Front/tmp
 Authenticacion/AuthApp-Front/out-tsc
 Authenticacion/AuthApp-Front/bazel-out

@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace AuthApp.Logic.Migrations
 {
     /// <inheritdoc />
@@ -156,6 +158,16 @@ namespace AuthApp.Logic.Migrations
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "1e8df1d6-8b2b-47e1-8f55-1b4e05b9c054", null, "Empleado", "EMPLEADO" },
+                    { "5c5240e1-7e87-410a-8d76-d98c25732152", null, "Cliente", "CLIENTE" },
+                    { "6a40a232-0947-4959-b1ff-97a151044454", null, "Administrador", "ADMINISTRADOR" }
                 });
 
             migrationBuilder.CreateIndex(
