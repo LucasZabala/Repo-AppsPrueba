@@ -1,0 +1,15 @@
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\bin\Debug\net9.0\AuthApp.Logic.deps.json
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\bin\Debug\net9.0\AuthApp.Logic.runtimeconfig.json
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\bin\Debug\net9.0\AuthApp.Logic.dll
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\bin\Debug\net9.0\AuthApp.Logic.pdb
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.csproj.AssemblyReference.cache
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.AssemblyInfoInputs.cache
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.AssemblyInfo.cs
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.sourcelink.json
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.dll
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\refint\AuthApp.Logic.dll
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.pdb
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\AuthApp.Logic.genruntimeconfig.cache
+C:\Users\User\Documents\ProyectosPractica\Authenticacion\AuthApp\AuthApp.Logic\obj\Debug\net9.0\ref\AuthApp.Logic.dll

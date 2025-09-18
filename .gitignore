@@ -172,4 +172,44 @@ CRUDImagenes/CRUDImagenes-Front/typings
 # System files
 CRUDImagenes/CRUDImagenes-Front/.DS_Store
 CRUDImagenes/CRUDImagenes-Front/Thumbs.db
-#/////////////////////////////////CRUD VIDEOS
+#///////////////////////////////// Authenticacion //////////////////////
+# Compiled output
+Authenticacion/AuthApp-Front/dist
+Authenticacion/AuthApp-Front/tmp
+Authenticacion/AuthApp-Front/out-tsc
+Authenticacion/AuthApp-Front/bazel-out
+
+# Node
+Authenticacion/AuthApp-Front/node_modules
+Authenticacion/AuthApp-Front/npm-debug.log
+Authenticacion/AuthApp-Front/yarn-error.log
+
+# IDEs and editors
+Authenticacion/AuthApp-Front/.idea/
+Authenticacion/AuthApp-Front/.project
+Authenticacion/AuthApp-Front/.classpath
+Authenticacion/AuthApp-Front/.c9/
+Authenticacion/AuthApp-Front/*.launch
+Authenticacion/AuthApp-Front/.settings/
+Authenticacion/AuthApp-Front/*.sublime-workspace
+
+# Visual Studio Code
+Authenticacion/AuthApp-Front/.vscode/*
+Authenticacion/AuthApp-Front/!.vscode/settings.json
+Authenticacion/AuthApp-Front/!.vscode/tasks.json
+Authenticacion/AuthApp-Front/!.vscode/launch.json
+Authenticacion/AuthApp-Front/!.vscode/extensions.json
+Authenticacion/AuthApp-Front/.history/*
+
+# Miscellaneous
+Authenticacion/AuthApp-Front/.angular/cache
+Authenticacion/AuthApp-Front/.sass-cache/
+Authenticacion/AuthApp-Front/connect.lock
+Authenticacion/AuthApp-Front/coverage
+Authenticacion/AuthApp-Front/libpeerconnection.log
+Authenticacion/AuthApp-Front/testem.log
+Authenticacion/AuthApp-Front/typings
+
+# System files
+Authenticacion/AuthApp-Front/.DS_Store
+Authenticacion/AuthApp-Front/Thumbs.db

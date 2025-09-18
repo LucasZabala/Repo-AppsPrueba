@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Imagenes.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746381bb5475787781986678df05d13684394ba4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f46447163b810428f07a9ebafea0a84e9e37ddf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Imagenes.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Imagenes.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

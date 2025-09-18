@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\controllers\\objetoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\controllers\\objetoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\interface\\iobjetoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\models\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|solutionrelative:imagenes.logic\\models\\objeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.api\\controllers\\objetoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0CEDF7-8FCA-4031-AD83-CBAA1965B85C}|Imagenes.Api\\Imagenes.Api.csproj|solutionrelative:imagenes.api\\controllers\\objetoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20F21154-8923-42A7-8925-9F441E573D03}|Imagenes.Logic\\Imagenes.Logic.csproj|c:\\users\\user\\documents\\proyectospractica\\crudimagenes\\crudimagenes-back\\imagenes.logic\\interface\\iobjetorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,23 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IObjetoService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Interface\\IObjetoService.cs",
-              "RelativeDocumentMoniker": "Imagenes.Logic\\Interface\\IObjetoService.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Interface\\IObjetoService.cs",
-              "RelativeToolTip": "Imagenes.Logic\\Interface\\IObjetoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T13:15:03.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ObjetoRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Repository\\ObjetoRepository.cs",
               "RelativeDocumentMoniker": "Imagenes.Logic\\Repository\\ObjetoRepository.cs",
@@ -86,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ObjetoService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Service\\ObjetoService.cs",
               "RelativeDocumentMoniker": "Imagenes.Logic\\Service\\ObjetoService.cs",
@@ -98,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Objeto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Models\\Objeto.cs",
               "RelativeDocumentMoniker": "Imagenes.Logic\\Models\\Objeto.cs",
@@ -110,32 +98,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ImageController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ImageController.cs",
               "RelativeDocumentMoniker": "Imagenes.Api\\Controllers\\ImageController.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ImageController.cs",
               "RelativeToolTip": "Imagenes.Api\\Controllers\\ImageController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAC4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAIwDgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T13:14:39.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Program.cs",
               "RelativeDocumentMoniker": "Imagenes.Api\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Program.cs",
               "RelativeToolTip": "Imagenes.Api\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T14:37:41.697Z"
+              "WhenOpened": "2025-09-13T14:37:41.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Imagenes.Api\\appsettings.json",
@@ -143,7 +132,33 @@
               "RelativeToolTip": "Imagenes.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-13T14:23:58.475Z"
+              "WhenOpened": "2025-09-13T14:23:58.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObjetoesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ObjetoesController.cs",
+              "RelativeDocumentMoniker": "Imagenes.Api\\Controllers\\ObjetoesController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ObjetoesController.cs",
+              "RelativeToolTip": "Imagenes.Api\\Controllers\\ObjetoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:15:16.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IObjetoService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Interface\\IObjetoService.cs",
+              "RelativeDocumentMoniker": "Imagenes.Logic\\Interface\\IObjetoService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Logic\\Interface\\IObjetoService.cs",
+              "RelativeToolTip": "Imagenes.Logic\\Interface\\IObjetoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:15:03.822Z"
             },
             {
               "$type": "Document",
@@ -156,18 +171,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T13:15:02.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ObjetoesController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ObjetoesController.cs",
-              "RelativeDocumentMoniker": "Imagenes.Api\\Controllers\\ObjetoesController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\ProyectosPractica\\CRUDImagenes\\CRUDImagenes-BACK\\Imagenes.Api\\Controllers\\ObjetoesController.cs",
-              "RelativeToolTip": "Imagenes.Api\\Controllers\\ObjetoesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T13:15:16.559Z"
             },
             {
               "$type": "Document",
