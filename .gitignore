@@ -214,3 +214,47 @@ Authenticacion/AuthApp-Front/typings
 # System files
 Authenticacion/AuthApp-Front/.DS_Store
 Authenticacion/AuthApp-Front/Thumbs.db
+
+#///////////////////////////////// BoletoQR //////////////////////
+# Compiled output
+BoletoQR/BoletoQR-Front/dist
+BoletoQR/BoletoQR-Front/dist
+BoletoQR/BoletoQR-Front/tmp
+BoletoQR/BoletoQR-Front/out-tsc
+BoletoQR/BoletoQR-Front/bazel-out
+
+# Node
+BoletoQR/BoletoQR-Front/node_modules
+BoletoQR/BoletoQR-Front/npm-debug.log
+BoletoQR/BoletoQR-Front/yarn-error.log
+
+# IDEs and editors
+BoletoQR/BoletoQR-Front/.idea/
+BoletoQR/BoletoQR-Front/.project
+BoletoQR/BoletoQR-Front/.classpath
+BoletoQR/BoletoQR-Front/.c9/
+BoletoQR/BoletoQR-Front/*.launch
+BoletoQR/BoletoQR-Front/.settings/
+BoletoQR/BoletoQR-Front/*.sublime-workspace
+
+# Visual Studio Code
+BoletoQR/BoletoQR-Front/.vscode/*
+BoletoQR/BoletoQR-Front/!.vscode/settings.json
+BoletoQR/BoletoQR-Front/!.vscode/tasks.json
+BoletoQR/BoletoQR-Front/!.vscode/launch.json
+BoletoQR/BoletoQR-Front/!.vscode/extensions.json
+BoletoQR/BoletoQR-Front/.history/*
+
+# Miscellaneous
+BoletoQR/BoletoQR-Front/.angular/cache
+BoletoQR/BoletoQR-Front/.sass-cache/
+BoletoQR/BoletoQR-Front/connect.lock
+BoletoQR/BoletoQR-Front/coverage
+BoletoQR/BoletoQR-Front/libpeerconnection.log
+BoletoQR/BoletoQR-Front/testem.log
+BoletoQR/BoletoQR-Front/typings
+
+# System files
+BoletoQR/BoletoQR-Front/.DS_Store
+BoletoQR/BoletoQR-Front/Thumbs.db
+/BoletoQR/BoletoQR-Back/.vs
